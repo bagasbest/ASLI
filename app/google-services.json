@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546824565227",
+    "project_id": "asli-project",
+    "storage_bucket": "asli-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546824565227:android:f8efb0f1a2993efed269ae",
+        "android_client_info": {
+          "package_name": "com.project.asli"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546824565227-o26afu19gc0av81jr8v6jivoav89jmhg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCImBdmeu0kEFCsvkdXyk-3yRR0LDBkcAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546824565227-o26afu19gc0av81jr8v6jivoav89jmhg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
