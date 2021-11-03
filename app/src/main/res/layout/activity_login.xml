@@ -5,9 +5,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login.LoginActivity"
-    android:background="@drawable/bg_screen">
+    tools:context=".login.LoginActivity">
 
+
+  <ImageView
+      android:id="@+id/bg"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:contentDescription="@string/image"
+      android:scaleType="centerCrop"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
   <ImageButton
       android:id="@+id/backButton"
@@ -17,7 +27,7 @@
       android:contentDescription="@string/button"
       android:layout_marginTop="16dp"
       android:layout_marginStart="16dp"
-      android:backgroundTint="@color/button_color"
+      android:backgroundTint="@color/background"
       android:src="@drawable/ic_baseline_arrow_back_24"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
@@ -28,7 +38,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Login Admin"
-      android:textColor="@color/black"
+      android:textColor="@color/white"
       android:textSize="18sp"
       android:textStyle="bold"
       android:layout_marginStart="16dp"
@@ -41,54 +51,54 @@
       android:layout_width="match_parent"
       android:layout_height="1dp"
       android:layout_marginTop="16dp"
-      android:background="@android:color/darker_gray"
+      android:background="@color/background"
       app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
 
-  <com.google.android.material.textfield.TextInputLayout
-      android:id="@+id/textInputLayout"
-      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+  <EditText
+      android:id="@+id/email"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="60dp"
       android:layout_marginStart="16dp"
       android:layout_marginTop="30dp"
       android:layout_marginEnd="16dp"
+      android:background="@drawable/bg_rounded"
+      android:backgroundTint="@color/background"
+      android:drawableStart="@drawable/ic_baseline_email_24"
+      android:drawablePadding="16dp"
+      android:hint="Email"
+      android:importantForAutofill="no"
+      android:inputType="textEmailAddress"
+      android:paddingStart="10dp"
+      android:paddingEnd="10dp"
+      android:textColor="@color/white"
+      android:textColorHint="@color/white"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/view"
-      app:startIconDrawable="@drawable/ic_baseline_email_24">
+      app:layout_constraintTop_toBottomOf="@+id/view" />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress" />
-
-  </com.google.android.material.textfield.TextInputLayout>
-
-  <com.google.android.material.textfield.TextInputLayout
-      android:id="@+id/textInputLayout2"
-      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+  <EditText
+      android:id="@+id/password"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
+      android:layout_height="60dp"
       android:layout_marginStart="16dp"
-      android:layout_marginTop="10dp"
       android:layout_marginEnd="16dp"
+      android:background="@drawable/bg_rounded"
+      android:backgroundTint="@color/background"
+      android:drawableStart="@drawable/ic_baseline_lock_24"
+      android:drawablePadding="16dp"
+      android:hint="Kata sandi"
+      android:layout_marginTop="10dp"
+      android:importantForAutofill="no"
+      android:inputType="textPassword"
+      android:paddingStart="10dp"
+      android:paddingEnd="10dp"
+      android:textColor="@color/white"
+      android:textColorHint="@color/white"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-      app:passwordToggleEnabled="true"
-      app:startIconDrawable="@drawable/ic_baseline_lock_24">
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Kata sandi"
-        android:inputType="textPassword" />
-
-  </com.google.android.material.textfield.TextInputLayout>
+      app:layout_constraintTop_toBottomOf="@+id/email" />
 
   <ProgressBar
       android:layout_width="wrap_content"
@@ -98,7 +108,7 @@
       android:id="@+id/progressBar"
       android:visibility="gone"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
+      app:layout_constraintTop_toBottomOf="@+id/password" />
 
   <Button
       android:layout_width="match_parent"
@@ -119,7 +129,7 @@
       android:layout_height="wrap_content"
       android:padding="10dp"
       android:text="Register"
-      android:textColor="@color/black"
+      android:textColor="@color/white"
       android:layout_marginBottom="30dp"
       android:textSize="18sp"
       android:textStyle="bold"
