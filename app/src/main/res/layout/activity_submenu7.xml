@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu7Activity">
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Teori ketergantungan"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="@+id/backButton" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16sp"
+            android:layout_marginEnd="16sp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view9">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:backgroundTint="@color/background"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/white"
+                    android:text="Andre Gunder Frank adalah salah seorang pencetus teori ketergantungan. Dalam konteks proses hubungan ekonomi antara negara maju dengan negara miskin, Frank membuat pembagian yaitu apa yang disebutnya dengan negara-negara metropolis maju (developed metropolitan countries) dan negara-negara satelit yang terbelakang (satellite underdeveloped countries)." />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:text="Hubungan ekonomi antara negara metropolis maju dan negara satelit yang terbelakang ini merupakan aspek utama perkembangan sistem kapitalis dalam skala internasional. Menurut Frank, hubungan metropolis-satelit menyentuh keseluruhan sektor di negara-negara miskin, dan keterbelakangan sektor tradisional justru diakibatkan oleh adanya kontak dengan sistem kapitalis dunia yang masuk ke negara miskin melalui sektor modern di negara ini." />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:text="Sektor modern merupakan kaki tangan sistem kapitalis dunia yang melakukan eksploitasi terhadap daerah atau sektor yang sekarang menjadi terbelakang. Frank tidak setuju pendapat yang mengatakan bahwa perkembangan ekonomi negara miskin akan terjadi sebagai akibat hubungan ekonomi dengan negara maju. Hal ini didasarkan pada penemuan historis di Amerika Latin, yang memberi petunjuk bahwa perkembangan yang sehat dan otonom justru terjadi pada waktu hubungan metropolis-satelit ini tidak ada." />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:orientation="vertical"
+                android:backgroundTint="@color/background"
+                android:background="@drawable/bg_rounded">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:text="Dos Santos beranggapan lain. Dia menyatakan bahwa negara pinggiran atau satelit bisa juga berkembang, meskipun perkembangan ini merupakan perkembangan yang bergantung, perkembangan ikutan. Dinamika perkembangan ini tidak datang dari negara satelit tersebut, tetapi dari negara induknya. Dengan demikian, meskipun Frank dan Dos Santos merupakan tokoh dari teori ketergantungan, keduanya berbeda dalam beberapa hal. Sumbangan Dos Santos yang lain adalah uraiannya yang lebih rinci tentang bentuk-bentuk ketergantungan. Dia membedakan tiga bentuk ketergantungan, yakni:" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginTop="16sp"
+                android:textAlignment="textStart"
+                android:text="1. Ketergantungan Kolonial" />
+
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:text="2. Ketergantungan finansial-industrial." />
+
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:text="3. Ketergantungan teknologis-industrial." />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

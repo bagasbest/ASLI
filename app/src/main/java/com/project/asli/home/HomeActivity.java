@@ -13,6 +13,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.project.asli.R;
 import com.project.asli.databinding.ActivityHomeBinding;
 import com.project.asli.home.filosofi.PhilosophyActivity;
+import com.project.asli.home.teori_pertumbuhan_dan_perkembangan_ekonomi.DashboardActivity;
 import com.project.asli.login.LoginActivity;
 
 public class HomeActivity extends AppCompatActivity {
@@ -56,6 +57,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HomeActivity.this, PhilosophyActivity.class));
+            }
+        });
+
+        /// Teori pertumbuhan dan perkembangan ekonomi
+        binding.button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, DashboardActivity.class));
             }
         });
     }

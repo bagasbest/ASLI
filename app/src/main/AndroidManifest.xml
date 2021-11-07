@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".home.filosofi.PhilosophyActivity"
             android:exported="false" />
         <activity

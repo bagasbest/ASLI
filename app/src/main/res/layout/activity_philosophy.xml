@@ -38,149 +38,130 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:layout_marginStart="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toTopOf="@+id/imageButton" />
 
     <View
         android:id="@+id/view8"
         android:layout_width="match_parent"
         android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
         android:background="@color/background"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"/>
 
 
-    <ScrollView
+    <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view8">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/bg_rounded"
-            android:backgroundTint="@color/background"
-            android:orientation="vertical"
-            android:padding="10dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Terdapat 5 Filosofi Di Daerah Bima, Nusa Tenggara Barat, yaitu sebagai berikut:"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/view8">
-
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Terdapat 5 Filosofi Di Daerah Bima, Nusa Tenggara Barat, yaitu sebagai berikut:"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/view8" />
+            app:layout_constraintTop_toBottomOf="@+id/view8" />
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="1. Maja labo dahu"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+    </LinearLayout>
 
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Malu berbuat salah dan takut berbuat salah, malu kepada sesama dan takut berbuat salah kepada Allah dan aturan adat."
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="2. Ngaha aina ngoho"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Makan jangan berlebihan; dimana manusia harus mengontrol diri agar tidak serakah dalam melakukan kegiatan dan perbuatannya."
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Maja labo dahu"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="3. Mbolo radampa"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Musyawarah untuk mencari samanya cara berfikir untuk mencapai kesamaan kehendak."
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="4. su’u sawa’u sia sawale"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Dalam mengerjakan tugas harus bertanggung jawab, bekerjasama dan bahu membahu."
-                android:textColor="@android:color/white"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="5. Gahi rawi pahu"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Ucapan dan perbuatan harus sama."
-                android:textColor="@android:color/white"
-                android:layout_marginBottom="30dp"
-                android:textSize="16sp" />
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Ngaha aina ngoho"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
 
 
-        </LinearLayout>
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Mbolo radampa"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
 
 
-    </ScrollView>
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="su’u sawa’u sia sawale"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
 
+
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Gahi rawi pahu"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
