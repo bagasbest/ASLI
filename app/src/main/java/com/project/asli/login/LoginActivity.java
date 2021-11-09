@@ -33,6 +33,9 @@ public class LoginActivity extends AppCompatActivity {
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
 
+        /// autoLogin
+        autoLogin();
+
         /// login
         binding.login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +62,13 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    private void autoLogin() {
+        if(FirebaseAuth.getInstance().getCurrentUser() != null) {
+            startActivity(new Intent(this, HomeActivity.class));
+            finish();
+        }
     }
 
     private void formValidation() {

@@ -94,7 +94,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:background="@drawable/bg_rounded"
-                android:backgroundTint="@color/background"
                 android:orientation="vertical">
 
                 <com.codesgood.views.JustifiedTextView
@@ -127,7 +126,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16sp"
                 android:orientation="vertical"
-                android:backgroundTint="@color/background"
                 android:background="@drawable/bg_rounded">
 
                 <com.codesgood.views.JustifiedTextView

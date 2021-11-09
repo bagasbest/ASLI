@@ -12,6 +12,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPEDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.quiz_akhir.LastQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.materi4.QuizMateri4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.materi3.QuizMateri3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.materi2.QuizMateri2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.quiz_score.ScoreDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.quiz_score.QuizScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.QuizStandardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.QuizReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.QuizAddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.QuizEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.QuizResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.quiz.materi1.QuizMateri1Activity"
+            android:exported="false" />
+        <activity
             android:name=".home.teori_pertumbuhan_dan_perkembangan_ekonomi.Submenu6Activity"
             android:exported="false" />
         <activity

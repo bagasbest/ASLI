@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="quiz_type">
+        <item>Quiz ke-1</item>
+        <item>Quiz ke-2</item>
+        <item>Quiz ke-3</item>
+        <item>Quiz ke-4</item>
+        <item>Quiz ke-5</item>
+    </string-array>
+</resources>

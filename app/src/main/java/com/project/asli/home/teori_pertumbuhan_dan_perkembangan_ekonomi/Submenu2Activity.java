@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 
+import com.bumptech.glide.Glide;
 import com.project.asli.R;
 import com.project.asli.databinding.ActivitySubmenu2Binding;
 import com.project.asli.databinding.ActivitySubmenuBinding;
@@ -21,6 +22,10 @@ public class Submenu2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySubmenu2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        Glide.with(this)
+                .load(R.drawable.bg_darken)
+                .into(binding.bg);
 
 //        if(getIntent().getStringExtra(EXTRA_ROLE).equals("admin")) {
 //            binding.edit.setVisibility(View.VISIBLE);

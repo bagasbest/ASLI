@@ -106,7 +106,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16sp"
                     android:background="@drawable/bg_rounded"
-                    android:backgroundTint="@color/background"
                     android:orientation="vertical"
                     android:padding="10dp">
 
@@ -133,7 +132,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/bg_rounded"
-                    android:backgroundTint="@color/background"
                     android:padding="10dp"
                     android:text="Mazhab ini diwakili oleh:\n\nFriedrich Lish, Bruno Hildebrand, Karl Bucher, dan Walt Whitman Rostow."
                     android:textColor="@android:color/white"

@@ -56,6 +56,7 @@ public class RegisterActivity extends AppCompatActivity {
         String email = binding.email.getText().toString().trim();
         String password = binding.password.getText().toString().trim();
         String name = binding.name.getText().toString().trim();
+        String nim = binding.nim.getText().toString().trim();
 
         if(email.isEmpty()) {
             Toast.makeText(RegisterActivity.this, "Email harus diisi", Toast.LENGTH_SHORT).show();
@@ -65,6 +66,9 @@ public class RegisterActivity extends AppCompatActivity {
             return;
         } else if(name.isEmpty()) {
             Toast.makeText(RegisterActivity.this, "Nama harus diisi", Toast.LENGTH_SHORT).show();
+            return;
+        } else if(nim.isEmpty()) {
+            Toast.makeText(RegisterActivity.this, "NIM harus diisi", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -78,7 +82,7 @@ public class RegisterActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()) {
                             /// simpan data diri admin ke database
-                            saveAdminBio(email, password, name);
+                            saveAdminBio(email, password, name, nim);
                         } else {
                             binding.progressBar.setVisibility(View.GONE);
                             showFailureDialog();
@@ -89,20 +93,22 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     /// simpan data diri admin ke database
-    private void saveAdminBio(String email, String password, String name) {
+    private void saveAdminBio(String email, String password, String name, String nim) {
         String uid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        Map<String, Object> admin = new HashMap<>();
-        admin.put("uid", uid);
-        admin.put("name", name);
-        admin.put("email", email);
-        admin.put("password", password);
+        Map<String, Object> user = new HashMap<>();
+        user.put("uid", uid);
+        user.put("name", name);
+        user.put("email", email);
+        user.put("password", password);
+        user.put("role", "user");
+        user.put("nim", nim);
 
 
         FirebaseFirestore
                 .getInstance()
-                .collection("admin")
+                .collection("users")
                 .document(uid)
-                .set(admin)
+                .set(user)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {

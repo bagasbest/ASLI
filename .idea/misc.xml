@@ -12,10 +12,25 @@
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2324074074074074" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_ipedashboard.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_last_quiz.xml" value="0.23645833333333333" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_main.xml" value="0.11499493414387031" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_pddashboard.xml" value="0.2" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_philosophy.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_ppdashboard.xml" value="0.22239583333333332" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_add.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_edit.xml" value="0.2" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_materi1.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_materi2.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_materi3.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_materi4.xml" value="0.23645833333333333" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_materi_result.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_report.xml" value="0.264" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_score.xml" value="0.176" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_quiz_standard.xml" value="0.2" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_register.xml" value="0.23233695652173914" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_score_detail.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_submenu.xml" value="0.2" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_submenu2.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_submenu3.xml" value="0.264" />
@@ -25,6 +40,8 @@
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_submenu7.xml" value="0.176" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_theory.xml" value="0.264" />
         <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/activity_theory1.xml" value="0.22327898550724637" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/item_report.xml" value="0.536" />
+        <entry key="..\:/TUBES_GALERI/ASLI/app/src/main/res/layout/item_score.xml" value="0.536" />
       </map>
     </option>
   </component>
