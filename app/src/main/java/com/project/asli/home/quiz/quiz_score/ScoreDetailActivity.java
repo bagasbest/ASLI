@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 import com.bumptech.glide.Glide;
@@ -41,9 +42,6 @@ public class ScoreDetailActivity extends AppCompatActivity {
 
         /// get user biodata
         getUserBiodata();
-
-        ///get all nilai mahasiswa yang dipilih from db
-        getNilaiFromDb();
 
         /// get all standar nilai from db
         getAllStandardNilai();
@@ -202,6 +200,9 @@ public class ScoreDetailActivity extends AppCompatActivity {
         if (listNilai.size() == 5) {
             binding.nilai5.setText("Nilai: " + String.format("%.1f", listNilai.get(4)));
         }
+
+        checkApakahNilaiLebihKecilDariStandar();
+
     }
 
     private void getAllStandardNilai() {
@@ -216,6 +217,9 @@ public class ScoreDetailActivity extends AppCompatActivity {
                             listStandardScore.add("" + document.get("value"));
                         }
                         populateStandardNilai();
+
+                        ///get all nilai mahasiswa yang dipilih from db
+                        getNilaiFromDb();
                     }
                 });
     }
@@ -227,13 +231,9 @@ public class ScoreDetailActivity extends AppCompatActivity {
         binding.standarQuiz3.setText("Standar kelulusan: " + listStandardScore.get(2));
         binding.standarQuiz4.setText("Standar kelulusan: " + listStandardScore.get(3));
         binding.standarQuiz5.setText("Standar kelulusan: " + listStandardScore.get(4));
-
-
-        checkApakahNilaiLebihKecilDariStandar();
     }
 
     private void checkApakahNilaiLebihKecilDariStandar() {
-
         if (listNilai.size() >= 1 && listNilai.get(0) < Double.parseDouble(listStandardScore.get(0))) {
             binding.quiz1.setVisibility(View.VISIBLE);
         }

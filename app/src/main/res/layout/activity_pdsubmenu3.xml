@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.pembangunan_daerah.PDDashboardActivity">
+    tools:context=".home.pembangunan_daerah.PDSubmenu3Activity">
 
 
     <ImageView
@@ -57,123 +57,121 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/view10"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view9">
 
             <TextView
-                android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pembangunan Derah"
+                android:text="Teori pertumbuhan dan pembangunan ekonomi daerah"
                 android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
                 android:layout_marginTop="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:background="@color/background" />
 
-
-            <Button
-                android:id="@+id/teori1"
+            <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
-                android:layout_marginEnd="16dp"
-                android:text="Definisi daerah dan potensi daerah"
-                android:textAllCaps="false"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-            <Button
-                android:id="@+id/teori5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
-                android:layout_marginEnd="16dp"
-                android:text="Definisi pembangunan ekonomi daerah"
-                android:textAllCaps="false"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/teori1" />
-
-            <Button
-                android:id="@+id/teori2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/bg_rounded"
-                android:text="Teori-teori pembangunan ekonomi daerah"
-                android:textAllCaps="false"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/teori5" />
+                android:padding="10dp"
+                android:text="Berikut ini terdapat 6 Teori mengenai pertumbuhan dan pembangunan ekonomi daerah, yaitu sebagai berikut: "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
             <Button
-                android:id="@+id/teori3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:background="@drawable/bg_rounded"
-                android:text="Perencanaan ekonomi daerah"
-                android:textAllCaps="false"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/teori2" />
-
-            <Button
-                android:id="@+id/teori4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_rounded"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="16dp"
-                android:text="Metode-metode kuantitatif dalam analisis potensi daerah"
+                android:id="@+id/num1"
                 android:textAllCaps="false"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/teori3" />
+                android:textAlignment="textStart"
+                android:layout_marginTop="16dp"
+                android:text="1. Teori Ekonomi Neo-Klasik" />
 
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded"
+                android:id="@+id/num2"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"
+                android:layout_marginTop="16dp"
+                android:text="2. Teori Basis Ekonomi" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded"
+                android:id="@+id/num3"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_marginTop="16dp"
+                android:text="3. Teori Lokasi" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded"
+                android:id="@+id/num4"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_marginTop="16dp"
+                android:text="4. Teori Tempat Sentral" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded"
+                android:id="@+id/num5"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_marginTop="16dp"
+                android:text="5. Teori Kausasi Kumulatif" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded"
+                android:id="@+id/num6"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:layout_marginTop="16dp"
+                android:text="6. Model daya Tarik (Attraction)" />
+
+
+
+        </LinearLayout>
+
 
     </ScrollView>
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="2dp"
-        android:text="Kerjakan Quiz"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/view10"
-        app:layout_constraintTop_toTopOf="@+id/view10" />
-
-    <View
-        android:id="@+id/view10"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/background"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

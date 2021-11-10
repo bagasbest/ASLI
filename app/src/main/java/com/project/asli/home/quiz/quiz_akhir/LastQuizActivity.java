@@ -300,7 +300,7 @@ public class LastQuizActivity extends AppCompatActivity {
 
         FirebaseFirestore
                 .getInstance()
-                .collection("quiz_4")
+                .collection("quiz_5")
                 .get()
                 .addOnCompleteListener(task -> {
                     if(task.isSuccessful()) {

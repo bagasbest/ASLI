@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.institusi_dan_pembangunan_ekonomi.IPEDashboardActivity">
-
+    tools:context=".home.pembangunan_daerah.PDSubmenu1Activity">
 
     <ImageView
         android:id="@+id/bg"
@@ -37,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Topik Pembahasan"
+        android:text="Definisi daerah dan potensi daerah"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/white"
@@ -57,54 +56,64 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/view10"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <com.codesgood.views.JustifiedTextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/bg_rounded"
+            android:text="Daerah memiliki definisi yang berbeda-beda tergantung pada spek tinjauannya. Dari tinjauan aspek ekonomi, daerah mempunyai 3 definisi, yaitu:"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Institusi Dan Pembangunan Ekonomi"
-                android:textColor="@color/white"
-                android:layout_marginTop="16dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/background" />
 
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bg_rounded"
+            android:text="1. Daerah Homogen"
+            android:textAllCaps="false" />
 
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_rounded"
+            android:textAlignment="textStart"
+            android:text="2. Daerah Nodal"
+            android:textAllCaps="false" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_rounded"
+            android:textAlignment="textStart"
+            android:text="3. Daerah Perencanaan atau Daerah Administrasi"
+            android:textAllCaps="false" />
 
-    </ScrollView>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:elevation="2dp"
-        android:text="Kerjakan Quiz"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/view10"
-        app:layout_constraintTop_toTopOf="@+id/view10" />
-
-    <View
-        android:id="@+id/view10"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/background"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

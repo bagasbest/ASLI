@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 
@@ -20,7 +21,7 @@ public class QuizScoreActivity extends AppCompatActivity {
 
     private ActivityQuizScoreBinding binding;
     private ScoreAdapter adapter;
-    private String quizType = "1";
+    private String quizType = "Quiz ke-1";
     private String role = "bukan dosen";
 
     @Override
@@ -51,19 +52,24 @@ public class QuizScoreActivity extends AppCompatActivity {
         binding.quizType.setOnItemClickListener((adapterView, view, i, l) -> {
             initRecyclerView();
             quizType = binding.quizType.getText().toString();
-            if(quizType.equals("Quiz ke-1")) {
-                initViewModel("1");
-            } else if(quizType.equals("Quiz ke-2")) {
-                initViewModel("2");
-            } else if(quizType.equals("Quiz ke-3")) {
-                initViewModel("3");
-            } else if(quizType.equals("Quiz ke-4")) {
-                initViewModel("4");
-            } else if(quizType.equals("Quiz ke-5")) {
-                initViewModel("5");
+            switch (quizType) {
+                case "Quiz ke-1":
+                    initViewModel("1");
+                    break;
+                case "Quiz ke-2":
+                    initViewModel("2");
+                    break;
+                case "Quiz ke-3":
+                    initViewModel("3");
+                    break;
+                case "Quiz ke-4":
+                    initViewModel("4");
+                    break;
+                case "Quiz Terakhir":
+                    initViewModel("5");
+                    break;
             }
         });
-
 
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
@@ -86,11 +92,27 @@ public class QuizScoreActivity extends AppCompatActivity {
                 .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {
-                        if(("" + documentSnapshot.get("role")).equals("dosen")) {
+                        if (("" + documentSnapshot.get("role")).equals("dosen")) {
                             role = "dosen";
                         }
                         initRecyclerView();
-                        initViewModel(quizType);
+                        switch (quizType) {
+                            case "Quiz ke-1":
+                                initViewModel("1");
+                                break;
+                            case "Quiz ke-2":
+                                initViewModel("2");
+                                break;
+                            case "Quiz ke-3":
+                                initViewModel("3");
+                                break;
+                            case "Quiz ke-4":
+                                initViewModel("4");
+                                break;
+                            case "Quiz Terakhir":
+                                initViewModel("5");
+                                break;
+                        }
                     }
                 });
     }

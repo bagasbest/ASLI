@@ -104,6 +104,43 @@ public class PDDashboardActivity extends AppCompatActivity {
             }
         });
 
+
+        binding.teori1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PDDashboardActivity.this, PDSubmenu1Activity.class));
+            }
+        });
+
+
+        binding.teori5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PDDashboardActivity.this, PDSubmenu2Activity.class));
+            }
+        });
+
+        binding.teori2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PDDashboardActivity.this, PDSubmenu3Activity.class));
+            }
+        });
+
+        binding.teori3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PDDashboardActivity.this, PDSubmenu4Activity.class));
+            }
+        });
+
+        binding.teori4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PDDashboardActivity.this, PDSubmenu5Activity.class));
+            }
+        });
+
     }
 
     private void cekApakahQuizPertamaUdahDikerjakanAtauBelum(ProgressDialog mProgressDialog) {

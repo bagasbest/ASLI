@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu41Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu1Activity"
+            android:exported="false" />
+        <activity
             android:name=".home.institusi_dan_pembangunan_ekonomi.IPEDashboardActivity"
             android:exported="false" />
         <activity
