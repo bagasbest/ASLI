@@ -101,6 +101,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:text="Dalam membahas perkembangan ekonomi, Schumpeter membedakan pengertian pertumbuhan ekonomi dan pembangunan ekonomi walaupun keduanya merupakan sumber peningkatan output masyarakat. Menurut Schumpeter pertumbuhan ekonomi adalah peningkatan output masyarakat yang disebabkan oleh semakin banyaknya jumlah faktor produksi yang digunakan dalam proses produksi masyarakat tanpa adanya perubahan “teknologi” produksi itu sendiri. Misalnya kenaikan out put yang disebabkan oleh pertumbuhan stok modal tanpa perubahan teknologi produksi yang lama."
                     android:textColor="@color/white" />
 
@@ -108,6 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="Sedangkan pembangunan ekonomi adalah kenaikan out put yang disebabkan oleh inovasi yang dilakukan oleh para wiraswasta. Inovasi ini berarti perabaikan “teknologi” dalam arti luar, miasalnya penemuan produk baru, pembukaan pasar baru dsb. Inovasi tersebut menyangkut perbaikan kuantitatif dari system ekonomi itu sendiri yang bersumber dari kreatifitas para wiraswastanya."
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -126,7 +128,7 @@
                 android:textStyle="bold"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:text="Inovasi mempunyai 3 pengaruh yaitu :" />
 
             <Button
@@ -154,6 +156,7 @@
 
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
+                    android:textSize="16sp"
                     android:layout_height="wrap_content"
                     android:text="Proses peniruan (imitasi) pada akhirnya akan di ikuti oleh investasi (akumulasi modal) oleh para peniru (imitator) tersebut. Proses peniruan ini mempunyai pengaruh berupa :"
                     android:textColor="@color/white" />
@@ -161,6 +164,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:layout_marginTop="10dp"
                     android:text="1. Menurunnya keuntungan monopolistis yang dinikmati oleh para innovator."
                     android:textColor="@color/white" />
@@ -168,6 +172,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:layout_marginTop="10dp"
                     android:text="2. Penyebaran teknologi baru di dalam masyarakat, berarti teknologi tersebut tidak lagi menjadi monopoli pencetusnya."
                     android:textColor="@color/white" />
@@ -185,7 +190,7 @@
                 android:layout_height="wrap_content"
                 android:text="Menurut Schumpeter ada 5 macam kegiatan yang termasuk sebagai inovasi yaitu :"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:textStyle="bold" />
 
@@ -210,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:text="Berikut ini terdapat 3 penjelasan mengenai runtuhnya Kapitalisme, yaitu:"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_marginTop="10dp"
                 android:textStyle="bold" />
 
@@ -237,10 +242,16 @@
                 android:layout_height="wrap_content"
                 android:text="Gambar Proses Kemajuan Ekonomi Menurut Schumpeter"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:layout_marginBottom="30dp"
                 android:layout_marginTop="10dp"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:id="@+id/img3"
+                android:contentDescription="@string/image" />
 
         </LinearLayout>
 

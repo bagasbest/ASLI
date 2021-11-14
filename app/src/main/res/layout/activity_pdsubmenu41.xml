@@ -966,6 +966,12 @@
                 android:textColor="@color/white"
                 android:layout_marginTop="10dp" />
 
+            <ImageView
+                android:id="@+id/img4"
+                android:contentDescription="@string/image"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
         </LinearLayout>
 
 

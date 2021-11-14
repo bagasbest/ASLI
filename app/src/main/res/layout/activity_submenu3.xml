@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:text="Harrod-Domar teori ini, memiliki beberapa asumsi, yaitu sebagai berikut:"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -111,6 +111,7 @@
 
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
+                    android:textSize="16sp"
                     android:layout_height="wrap_content"
                     android:text="1. Perekonomian dalam keadaan pengerjaan penuh (Full Empoyment) dan faktor - faktor produksi yang ada juga dimanfaatkan secara penuh (Full Utilization)"
                     android:textColor="@color/white" />
@@ -120,6 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="2. Perekonomian terdiri dari dua sektor: sektor rumah tangga dan sektor perusahaan."
                     android:textColor="@color/white" />
 
@@ -128,6 +130,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="3. Besarnya tabungan masyarakat proporsional dengan besarnya pendapatan nasional"
                     android:textColor="@color/white" />
 
@@ -136,19 +139,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="4. Kecendroungan menabung (marginal propensity to save = MPS) besarnya tetap, demikian juga rasio antara model-output (capital-output ratio = COR) dan rasio pertambahan model-output (incremental capital-output -ICOR). Cor dan ICOR yang tetap ini bisa dilihat pada grafik dibawah ini"
                     android:textColor="@color/white" />
 
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/img1"
+                android:contentDescription="@string/image"
+                android:layout_width="match_parent"
+                android:layout_height="280dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="16sp"
                 android:text="Penjelasan Kurva"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -163,12 +172,14 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:text="Dalam teori Harrod-Domar ini, fungsi produksinya berbentuk L karena sejumlah modal hanya dapat menciptakan suatu tingkat output tertentu (modal dan tenaga kerja yang tidak substitutif)."
                     android:textColor="@color/white" />
 
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:layout_marginTop="10dp"
                     android:text="Untuk menghasilkan output sebesar Q1 diperlukan modal K1 dan tenaga kerja L1, dan apabila kombinasi itu berubah maka tingkat output berubah. Untuk output sebesar Q2, misalnya hanya dapat diciptakan jika stok modal sebesar K2. Menurut Harrod-Domar, setiap perekonomian dapat menyisihkan suatu proporsi tertentu dari pendapatan nasionalnya jika hanya untuk mengantikan barang-barang modal (gedung-gedung, peralatan, material) yang rusak. Namun demikian, untuk menumbuhkan perekonomian tersebut, diperlukan investasiinvestasi baru sebagai tambahan stok modal. "
                     android:textColor="@color/white" />
@@ -178,6 +189,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="Jika kita menganggap bahwa ada hubungan ekonomis secara langsung antara besarnya stok modal (K) dan output total (Y), misalnya jika 3 rupiah modal diperlukan untuk menghasilkan (kenaikan) output total sebesar 1 rupiah, maka setiap tambahan bersih terhadap stok modal (investasi baru) akan mengakibatkan kenaikan output total sesuai dengan rasio modal-output tersebut."
                     android:textColor="@color/white" />
 

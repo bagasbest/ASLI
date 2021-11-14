@@ -26,6 +26,10 @@ public class Submenu6Activity extends AppCompatActivity {
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
 
+        Glide.with(this)
+                .load(R.drawable.img3)
+                .into(binding.img3);
+
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

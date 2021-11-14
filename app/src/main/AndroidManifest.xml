@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.pembangunan_daerah.PDSubmenu51Activity"
+            android:exported="false" />
+        <activity
             android:name=".home.pembangunan_daerah.PDSubmenu5Activity"
             android:exported="false" />
         <activity

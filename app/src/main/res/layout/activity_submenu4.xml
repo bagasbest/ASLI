@@ -101,6 +101,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:text="Neo-klasik adalah istilah yang digunakan untuk memberikan definisi beberapa arus pemikiran ilmu ekonomi yang mencoba menjabarkan pembentukan harga , produksi, dan distribusi pendapatan melewati mekanisme permintaan dan penawaran pada suatu pasar."
                     android:textColor="@color/white" />
 
@@ -119,12 +120,14 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:text="Teori Neo-Klasik menganjurkan kegiatan ekonomi selalu diarahkan ke pasar sempurna. Dalam keadaan pasar sempurna, perekonomian dapat tumbuh secara maksimal. Kebijakan yang perlu ditempuh teori Neo-Klasik untuk mewujudkan pasar sempurna adalah menghilangkan hambatan dalam perdagangan termasuk perpindahan orang, barang, dan modal seperti dalam model teori Klasik."
                     android:textColor="@color/white" />
 
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:layout_marginTop="10dp"
                     android:text="Menurut teori ini, Rasio Modal-output (Capital Output Rasio) dapat berubah-ubah. Dengan kata lain untuk menghasilkan sejumlah output tertentu, dapat digunakan kombinasi modal dan tenaga kerja yang berbeda-beda. Jika lebih banyak modal yang digunakan, tenaga kerja yang dibutuhkan lebih sedikit, dan sebaliknya. Dengan adanya fleksibilitas ini, suatu perekonomian mempunyai kebebasan yang tak terbatas dalam menentukan kombinasi antara model (K) dan tenaga kerja (L) yang akan digunakan untuk menghasilkan tingkat output tertentu."
                     android:textColor="@color/white" />
@@ -139,9 +142,15 @@
                 android:layout_marginTop="16sp"
                 android:text="Dapat kita perhatikan grafik fungsi produksi neoklasik"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:contentDescription="@string/image"
+                android:id="@+id/img2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -149,7 +158,7 @@
                 android:layout_marginTop="30dp"
                 android:text="Penjelasan Grafik"
                 android:textColor="@color/white"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
 
@@ -166,6 +175,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="16sp"
                     android:text="Pada intinya, model ini merupakan pengembangan dari formulasi Harrod – Domar dengan menambahkan faktor kedua, yakni tenaga kerja, serta memperkenalkan variabel independen ketiga, yakni teknologi, ke dalam persamaan pertumbuhan (growth equation). Sifat teori pertumbuhan neo-klasik bisa digambarkan seperti  kurva tersebut. Fungsi produksinya ditunjukkan oleh I2, I2, dan seterusnya. Dalam fungsi produksi yang berbentuk demikian, suatu tingkat output tertentu dapat diciptakan dengan menggunakan berbagai kombinasi modal dan tenaga kerja. Misalnya untuk menciptakan output sebesar I1, kombinasi modal dan tenaga kerja yang dapat digunakan antara lain (a) K3 dengan L3, (b) K2 dengan L2, dan (c) K1 dengan L1. Dengan demikian, walaupun jumlah modal berubah tetapi terdapat kemungkinan bahwa tingkat output tidak mengalami perubahan."
                     android:textColor="@color/white" />
 
@@ -173,6 +183,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
+                    android:textSize="16sp"
                     android:text="Disamping itu, jumlah output dapat mengalami perubahan walaupun jumlah modal tetap. Misalnya walaupun jumlah modal tetap sebesar K3, jumlah output dapat diperbesar menjadi I2, jika tenaga kerja digunakan ditambah dari L3 menjadi L4."
                     android:textColor="@color/white" />
 
