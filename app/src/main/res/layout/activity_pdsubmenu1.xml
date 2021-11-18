@@ -86,19 +86,17 @@
         <Button
             android:id="@+id/num1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:textAlignment="textStart"
-            android:background="@drawable/bg_rounded"
             android:text="1. Daerah Homogen"
             android:textAllCaps="false" />
 
         <Button
             android:id="@+id/num2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_rounded"
             android:textAlignment="textStart"
             android:text="2. Daerah Nodal"
             android:textAllCaps="false" />
@@ -106,9 +104,8 @@
         <Button
             android:id="@+id/num3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_marginTop="16dp"
-            android:background="@drawable/bg_rounded"
             android:textAlignment="textStart"
             android:text="3. Daerah Perencanaan atau Daerah Administrasi"
             android:textAllCaps="false" />

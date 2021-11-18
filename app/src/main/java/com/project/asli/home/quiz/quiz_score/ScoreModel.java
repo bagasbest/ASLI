@@ -6,6 +6,7 @@ public class ScoreModel {
     private String name;
     private double score;
     private String quizType;
+    private String nim;
 
     public ScoreModel() {
     }
@@ -40,5 +41,13 @@ public class ScoreModel {
 
     public void setQuizType(String quizType) {
         this.quizType = quizType;
+    }
+
+    public String getNim() {
+        return nim;
+    }
+
+    public void setNim(String nim) {
+        this.nim = nim;
     }
 }

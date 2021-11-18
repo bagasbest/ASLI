@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu3Activity">
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Institusi dan kinerja ekonomi"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="@+id/backButton" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institusi dan produktivitas"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="North (1990) menegaskan bahwa keberadaan sebuah instusi akan memberikan struktur insentif bagi sebuah perekonomian. Produktivitas itu sendiri, menurut North merupakan fungsi dari teknologi yang digunakan dan kondisi institusi dari perekonomian tersebut. North mengatakan bahwa; (1) produktivitas merupakan hasil dari perkembangan teknologi dimasa lalu dan adanya perubahan mendasar pada sturktur kelembagaan dan organisasi dinegara terkait. Dan (2) adanya tekanan yang dihasilkan oleh proses transformasi pada masyarakat , secara politis mampu mendorong perubahan yang mendasar pada struktur kelembagaan yang ada dan perubahan itu sendiri terjadi sebagai reaksi atas timbulnya tekanan tersebut (demand-side argument)"
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background"
+                android:layout_marginTop="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institusi dan kebijakan pemerintah"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pada dasarnya, institusi dan kebijakan merupakan dua hal yang sangat sulit untuk di pisahkan, mereka bagaikan dua sisi mata uang, yang saling mengisi dan berbagi. Kebijakan yang baik namun tanpa dilandasi oleh unsur institusi yang baik, hanya akan menyebabkan proses pembangunan menjadi terdistorsi."
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"/>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="kebijakan adalah intervensi pemerintah untuk mencari cara pemecahan masalah dalam pembangunan dan mendukung proses pembangunan yang lebih baik. Kebijakan juga diartikan sebagai upaya untuk mengatasi kegagalan dalam proses pembangunan."
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"/>
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="institusi dan kebijakan pemerintah selalu menjadi isu penting dalam proses pembangunan. Sejarah menunjukkan bahwa negara-negara maju, institusi yang baik merupakan kunci keberhasilan pembangunan dan kemajuan perekonomian mereka."
+                android:textColor="@color/white"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/background"
+                android:layout_marginTop="16sp" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institusi dan pembangunan ekonomi"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="16sp"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="selama tiga dekade terakhir, telah banyak studi yang dilakukan tentang peranan institusi dalam pembangunan ekonomi. Fakta menunjukkan bahwa dibeberapa negara asia, peran institusi ternyata sangat sentral dalam proses pembangunan ekonomi dikawasan tersebut. Didalam studinya, Chang (1998) mengungkapkan fakta tentang pentingnya institusi dalam pembangunan ekonomi di beberapa negara Asia:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="1."
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="pada dekade 1980-an, munculnya beberapa negara industri baru dikawasan asia timur (seperti Jepang, korea dan china) telah berhasil membuka mata dunia bahwa selain mekanisme pasar, ternyata banyak instrumen nonekonomi yang biasanya terabaikan, namun justru instrumen tersebutlah yang mampu mendorong pembangunan ekonomi."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="2."
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sebagai bahan perbandingan berdasarkan pengalaman empiris dibeberapa negara asia timur dan asia tenggara selama dua dekade terakhir diperoleh temuan bahwa proses reformasi ke sistem yang lebih pro-pasar dibanyak NSB ataupun negara-negara dalam masa transisi ekonomi seringkali mengalami kegagalan."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="3."
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="adanya krisi keuangan yang mendera sebagian besar negara-neagara dikawasan asia timur dan asia tenggara pada akhir 1990-an telah menjadikan institusi sebagai isu sentral dalam setiap pembahasan mengenai sebab terjadinya krisis tersebut. IMF secara tegas menyatakan bahwa krisis melanda negara-negara dikawasan tersebut tidak semara-mata disebabkan oleh adanya kesalahan dalam pengelolaan ekonomi makro, namun juga karena adanya buruknya institusi dinegara-negara tersebut."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

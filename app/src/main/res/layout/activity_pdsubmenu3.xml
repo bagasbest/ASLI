@@ -103,9 +103,8 @@
             <Button
                 android:id="@+id/num1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
                 android:text="1. Teori Ekonomi Neo-Klasik"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />
@@ -114,9 +113,8 @@
             <Button
                 android:id="@+id/num2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
                 android:text="2. Teori Basis Ekonomi"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />
@@ -125,9 +123,8 @@
             <Button
                 android:id="@+id/num3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
+                android:layout_height="60dp"
                 android:text="3. Teori Lokasi"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />
@@ -136,9 +133,8 @@
             <Button
                 android:id="@+id/num4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
+                android:layout_height="60dp"
                 android:text="4. Teori Tempat Sentral"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />
@@ -147,9 +143,8 @@
             <Button
                 android:id="@+id/num5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
                 android:text="5. Teori Kausasi Kumulatif"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />
@@ -158,9 +153,9 @@
             <Button
                 android:id="@+id/num6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginTop="16dp"
-                android:background="@drawable/bg_rounded"
+                android:layout_marginBottom="30dp"
                 android:text="6. Model daya Tarik (Attraction)"
                 android:textAlignment="textStart"
                 android:textAllCaps="false" />

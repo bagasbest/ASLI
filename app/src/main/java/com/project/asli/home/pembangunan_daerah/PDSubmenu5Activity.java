@@ -86,15 +86,6 @@ public class PDSubmenu5Activity extends AppCompatActivity {
             }
         });
 
-        binding.num7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(PDSubmenu5Activity.this, PDSubmenu51Activity.class);
-                intent.putExtra(PDSubmenu51Activity.EXTRA_NUM, "Kapasitas pengembangan ekonomi masyarakat");
-                startActivity(intent);
-            }
-        });
-
     }
 
     @Override

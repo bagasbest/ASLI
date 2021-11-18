@@ -58,6 +58,71 @@ public class PPDashboardActivity extends AppCompatActivity {
             }
         });
 
+        binding.teori1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu1Activity.class));
+            }
+        });
+
+        binding.teori2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu2Activity.class));
+
+            }
+        });
+
+        binding.teori3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu3Activity.class));
+
+            }
+        });
+
+
+        binding.teori4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu4Activity.class));
+
+            }
+        });
+
+        binding.teori5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu5Activity.class));
+
+            }
+        });
+
+        binding.teori6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu6Activity.class));
+
+            }
+        });
+
+        binding.teori7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu7Activity.class));
+
+            }
+        });
+
+        binding.teori8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PPDashboardActivity.this, PPSubmenu8Activity.class));
+
+            }
+        });
+
+
         /// kerjakan quiz ke 3
         binding.view10.setOnClickListener(new View.OnClickListener() {
             @Override

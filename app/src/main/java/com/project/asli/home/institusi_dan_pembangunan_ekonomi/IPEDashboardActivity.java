@@ -55,6 +55,37 @@ public class IPEDashboardActivity extends AppCompatActivity {
             }
         });
 
+        binding.teori1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(IPEDashboardActivity.this, IPESubmenu1Activity.class));
+            }
+        });
+
+        binding.teori2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(IPEDashboardActivity.this, IPESubmenu2Activity.class));
+
+            }
+        });
+
+        binding.teori3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(IPEDashboardActivity.this, IPESubmenu3Activity.class));
+
+            }
+        });
+
+        binding.teori4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(IPEDashboardActivity.this, IPESubmenu4Activity.class));
+
+            }
+        });
+
         /// kerjakan quiz ke 4
         binding.view10.setOnClickListener(new View.OnClickListener() {
             @Override

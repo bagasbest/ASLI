@@ -57,82 +57,84 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_height="0dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
-        <com.codesgood.views.JustifiedTextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:padding="10dp"
-            android:text="Berikut ini terdapat 5 topik pembahasan mengenai Perencanaan ekonomi daerah, yaitu sebagai berikut: "
-            android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:orientation="vertical">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
-            android:id="@+id/num1"
-            android:textAllCaps="false"
-            android:textAlignment="textStart"
-            android:layout_marginTop="16dp"
-            android:text="1. Implikasi perencanaan ekonomi daerah" />
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Berikut ini terdapat 5 topik pembahasan mengenai Perencanaan ekonomi daerah, yaitu sebagai berikut: "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
-            android:id="@+id/num2"
-            android:textAllCaps="false"
-            android:textAlignment="textStart"
-            android:layout_marginTop="16dp"
-            android:text="2. Tahap-tahap perencanaan pembangunan daerah" />
+            <Button
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:text="1. Implikasi perencanaan ekonomi daerah"
+                android:textAlignment="textStart"
+                android:textAllCaps="false" />
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
-            android:id="@+id/num3"
-            android:textAlignment="textStart"
-            android:textAllCaps="false"
-            android:layout_marginTop="16dp"
-            android:text="3. Sumberdaya perencanaan untuk pembangunan daerah" />
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="16dp"
+                android:text="2. Tahap-tahap perencanaan pembangunan daerah"
+                android:textAlignment="textStart"
+                android:textAllCaps="false" />
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
-            android:id="@+id/num4"
-            android:textAlignment="textStart"
-            android:textAllCaps="false"
-            android:layout_marginTop="16dp"
-            android:text="4. Peran pemerintah dalam pembangunan daerah" />
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="16dp"
+                android:text="3. Sumberdaya perencanaan untuk pembangunan daerah"
+                android:textAlignment="textStart"
+                android:textAllCaps="false" />
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
-            android:id="@+id/num5"
-            android:textAlignment="textStart"
-            android:textAllCaps="false"
-            android:layout_marginTop="16dp"
-            android:text="5. Informasi yang dibutuhkan dalam perencanaan pembangunan ekonomi daerah" />
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="16dp"
+                android:text="4. Peran pemerintah dalam pembangunan daerah"
+                android:textAlignment="textStart"
+                android:textAllCaps="false" />
 
-    </LinearLayout>
+
+            <Button
+                android:id="@+id/num5"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:text="5. Informasi yang dibutuhkan dalam perencanaan pembangunan ekonomi daerah"
+                android:textAlignment="textStart"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

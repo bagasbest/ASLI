@@ -25,7 +25,7 @@ public class Submenu4Activity extends AppCompatActivity {
                 .into(binding.bg);
 
         Glide.with(this)
-                .load(R.drawable.img2)
+                .load(R.drawable.neo_klasik_solo_swan)
                 .into(binding.img2);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {

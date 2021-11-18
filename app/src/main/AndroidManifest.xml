@@ -12,6 +12,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu41Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".home.pembangunan_pertanian.PPSubmenu1Activity"
+            android:exported="false" />
+        <activity
             android:name=".home.pembangunan_daerah.PDSubmenu51Activity"
             android:exported="false" />
         <activity

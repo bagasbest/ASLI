@@ -49,12 +49,13 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ViewHolder> 
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView name, score;
+        TextView name, score, nim;
         ConstraintLayout cv;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.name);
+            nim =itemView.findViewById(R.id.nim);
             score = itemView.findViewById(R.id.score);
             cv = itemView.findViewById(R.id.cv);
         }
@@ -63,6 +64,7 @@ public class ScoreAdapter extends RecyclerView.Adapter<ScoreAdapter.ViewHolder> 
         public void bind(ScoreModel model, String role) {
             name.setText("Nama Lengkap: " + model.getName());
             score.setText("Nilai: " + String.format("%.1f",  model.getScore()));
+            nim.setText("NIM: " + model.getNim());
 
             if(role.equals("dosen")) {
                 cv.setOnClickListener(new View.OnClickListener() {

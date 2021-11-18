@@ -43,10 +43,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/backButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/backButton"
-        app:layout_constraintTop_toTopOf="@+id/backButton"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/backButton"/>
 
     <View
         android:id="@+id/view9"
@@ -208,65 +206,26 @@
                 android:layout_marginTop="16dp"
                 android:background="@color/background" />
 
-
-            <LinearLayout
+            <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:background="@drawable/bg_rounded"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/white"
-                    android:text="Kelemahan dari model analisis shift share :" />
-
-                <com.codesgood.views.JustifiedTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"
-                    android:layout_marginTop="10dp"
-                    android:text="1. Hanya dapat digunakan untuk analisis Ex-post." />
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:text="Kelemahan dari model analisis shift share, yaitu sebagai berikut:" />
 
 
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="16dp"
+                android:textAlignment="textStart"
+                android:text="Kelemahan model analisis shift share" />
 
-                <com.codesgood.views.JustifiedTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"
-                    android:text="2. Ada data periode waktu tertentu di tengah tahun pengamatan yang tidak terungkap." />
-
-
-                <com.codesgood.views.JustifiedTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"
-                    android:text="3. Analisis ini sangat berbahaya sebagai alat peramalan, Mengingat bahwa regional shift tidak konstan dari satu periode ke periode lainnya." />
-
-
-                <com.codesgood.views.JustifiedTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"
-                    android:text="4. Tidak dapat dipakai untuk melihat keterkaitan antar sektor." />
-
-                <com.codesgood.views.JustifiedTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"
-                    android:textColor="@color/white"
-                    android:text="5. Tidak ada keterkaitan antar daerah." />
-
-
-
-            </LinearLayout>
 
         </LinearLayout>
 
@@ -438,8 +397,13 @@
                 android:layout_height="wrap_content"
                 android:textAllCaps="false"
                 android:textAlignment="textStart"
-                android:text="Kriteria penggolongan LQ" />
+                android:text="kriteria penggolongan LQ" />
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
 
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
@@ -841,6 +805,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginBottom="30dp"
+                android:src="@drawable/img9"
                 android:contentDescription="@string/image"
                 android:layout_marginTop="16sp"
                 android:id="@+id/img8" />
@@ -907,12 +872,13 @@
     <ScrollView
         android:id="@+id/num6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:visibility="gone"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="0dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -933,131 +899,134 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/background"
-                android:layout_marginTop="16dp" />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Rumus untuk menghitung rasio tersebut adalah sebagai berikut: "
-                android:textColor="@color/white"
-                android:textSize="16sp"
                 android:layout_marginTop="16dp"
-                android:textStyle="bold"/>
+                android:background="@color/background" />
 
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:text="Rumus untuk menghitung rasio tersebut adalah sebagai berikut: "
                 android:textColor="@color/white"
                 android:textSize="16sp"
-                android:layout_marginTop="16dp"/>
+                android:textStyle="bold" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Rumus untuk menghitung rasio tersebut adalah sebagai berikut: "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
 
             <com.makeramen.roundedimageview.RoundedImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="60dp"
                 android:src="@drawable/rumus1" />
 
-
-        </LinearLayout>
-    </ScrollView>
-
-    <ScrollView
-        android:id="@+id/num7"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginEnd="16sp"
-        android:layout_marginTop="10dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintTop_toBottomOf="@+id/view9"
-        tools:layout_editor_absoluteX="10dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
-                android:text="Untuk menilai kapasitas suatu masyarakat dalam suatu daerah sebagai upaya untuk melakukan pembangunan sosial ekonomi terpadu dalam jangka panjang diperlukan informasi-informasi tentang sistem kelembagaan di daerah sebagai berikut:"
-                android:textColor="@color/white"
-                android:textSize="16sp" />
-
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginTop="16sp"
                 android:background="@color/background" />
 
-            <Button
-                android:id="@+id/btn4"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16sp"
-                android:text="a. Lembaga-lembaga masyarakat"
-                android:textAlignment="textStart"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="b. Struktur ekonomi"
-                android:textAlignment="textStart"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="c. Lembaga-lembaga politik"
-                android:textAlignment="textStart"
-                android:textAllCaps="false" />
-
-            <Button
-                android:id="@+id/btn7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="d. Lembaga-lembaga keuangan"
-                android:textAlignment="textStart"
-                android:textAllCaps="false" />
+                android:orientation="vertical">
 
 
-            <Button
-                android:id="@+id/btn8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="e. Lembaga-lembaga Pendidikan dan Pelatihan"
-                android:textAlignment="textStart"
-                android:textAllCaps="false" />
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kapasitas pengembangan keonomi masyarakat"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="16sp"
-                android:background="@color/background" />
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded"
+                    android:padding="10dp"
+                    android:layout_marginTop="16sp"
+                    android:text="Untuk menilai kapasitas suatu masyarakat dalam suatu daerah sebagai upaya untuk melakukan pembangunan sosial ekonomi terpadu dalam jangka panjang diperlukan informasi-informasi tentang sistem kelembagaan di daerah sebagai berikut:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16sp"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
-                android:layout_marginBottom="30dp"
-                android:text="Dalam pembangunan ekonomi hubungan yang sinkron antar lembaga-lembaga di atas sama pentingnya dengan keberadaannya hubungan kerja yang baik antara lembaga-lembaga tersebut sangat diperlukan karena masing-masing mempunyai peranan dalam proses pembangunan ekonomi dan menciptakan kesempatan kerja di daerah."
-                android:textColor="@color/white"
-                android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16sp"
+                    android:background="@color/background" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:text="a. Lembaga-lembaga masyarakat"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="b. Struktur ekonomi"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="c. Lembaga-lembaga politik"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="d. Lembaga-lembaga keuangan"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="e. Lembaga-lembaga Pendidikan dan Pelatihan"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16sp"
+                    android:background="@color/background" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/bg_rounded"
+                    android:padding="10dp"
+                    android:text="Dalam pembangunan ekonomi hubungan yang sinkron antar lembaga-lembaga di atas sama pentingnya dengan keberadaannya hubungan kerja yang baik antara lembaga-lembaga tersebut sangat diperlukan karena masing-masing mempunyai peranan dalam proses pembangunan ekonomi dan menciptakan kesempatan kerja di daerah."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
 
 
         </LinearLayout>

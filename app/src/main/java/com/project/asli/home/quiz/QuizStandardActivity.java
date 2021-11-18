@@ -11,7 +11,9 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.project.asli.R;
 import com.project.asli.databinding.ActivityQuizStandardBinding;
@@ -31,6 +33,8 @@ public class QuizStandardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityQuizStandardBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        getStandardValue();
 
         Glide.with(this)
                 .load(R.drawable.bg_darken)
@@ -89,6 +93,21 @@ public class QuizStandardActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void getStandardValue() {
+        FirebaseFirestore
+                .getInstance()
+                .collection("standardScore")
+                .document(getIntent().getStringExtra(EXTRA_TYPE))
+                .get()
+                .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+                    @SuppressLint("SetTextI18n")
+                    @Override
+                    public void onSuccess(DocumentSnapshot documentSnapshot) {
+                        binding.value.setText("" + documentSnapshot.get("value"));
+                    }
+                });
     }
 
 

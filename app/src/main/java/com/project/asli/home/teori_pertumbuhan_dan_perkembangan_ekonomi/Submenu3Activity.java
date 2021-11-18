@@ -26,7 +26,7 @@ public class Submenu3Activity extends AppCompatActivity {
 
 
         Glide.with(this)
-                .load(R.drawable.img1)
+                .load(R.drawable.kurva_harrod_domar)
                 .into(binding.img1);
 
 

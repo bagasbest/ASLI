@@ -27,10 +27,6 @@ public class Submenu2Activity extends AppCompatActivity {
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
 
-//        if(getIntent().getStringExtra(EXTRA_ROLE).equals("admin")) {
-//            binding.edit.setVisibility(View.VISIBLE);
-//        }
-
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -120,7 +120,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="16sp"
                         android:textSize="16sp"
                         android:text="Mahzab ini dikenal sebagai penganjur paham nasionalisme, baik dalam kehidupan ekonomi maupun dalam kehidupan masyarakat. Pola kehidupan mahzab historismus ini di dasarkan atas perspektif sejarah terhadap masalah dan fenomena ekonomi."
                         android:textColor="@android:color/white" />
@@ -128,22 +128,40 @@
 
                 </LinearLayout>
 
-                <com.codesgood.views.JustifiedTextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/bg_rounded"
                     android:padding="10dp"
-                    android:textSize="16sp"
-                    android:text="Mazhab ini diwakili oleh:\n\nFriedrich Lish, Bruno Hildebrand, Karl Bucher, dan Walt Whitman Rostow."
-                    android:textColor="@android:color/white"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Mazhab ini diwakili oleh:"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                   <com.codesgood.views.JustifiedTextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/white"
+                       android:textSize="16sp"
+                       android:layout_marginTop="16sp"
+                       android:text="Friedrich Lish, Bruno Hildebrand, Karl Bucher, dan Walt Whitman Rostow." />
+
+
+                </LinearLayout>
+
+
 
                 <View
                     android:id="@+id/view10"
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:layout_marginTop="30dp"
+                    android:layout_marginTop="16sp"
                     android:background="@color/background" />
 
             </LinearLayout>
@@ -152,7 +170,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16sp"
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

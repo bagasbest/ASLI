@@ -80,8 +80,7 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_rounded"
+            android:layout_height="60dp"
             android:id="@+id/num1"
             android:textAllCaps="false"
             android:text="Definisi pembangunan ekonomi daerah" />

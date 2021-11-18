@@ -128,7 +128,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16sp"
                     android:text="Menurut teori ini, Rasio Modal-output (Capital Output Rasio) dapat berubah-ubah. Dengan kata lain untuk menghasilkan sejumlah output tertentu, dapat digunakan kombinasi modal dan tenaga kerja yang berbeda-beda. Jika lebih banyak modal yang digunakan, tenaga kerja yang dibutuhkan lebih sedikit, dan sebaliknya. Dengan adanya fleksibilitas ini, suatu perekonomian mempunyai kebebasan yang tak terbatas dalam menentukan kombinasi antara model (K) dan tenaga kerja (L) yang akan digunakan untuk menghasilkan tingkat output tertentu."
                     android:textColor="@color/white" />
 
@@ -182,7 +182,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16sp"
                     android:textSize="16sp"
                     android:text="Disamping itu, jumlah output dapat mengalami perubahan walaupun jumlah modal tetap. Misalnya walaupun jumlah modal tetap sebesar K3, jumlah output dapat diperbesar menjadi I2, jika tenaga kerja digunakan ditambah dari L3 menjadi L4."
                     android:textColor="@color/white" />

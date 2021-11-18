@@ -20,11 +20,11 @@
         android:id="@+id/backButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:contentDescription="@string/image"
-        android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/bg_rounded"
         android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
         android:src="@drawable/ic_baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -50,8 +50,8 @@
         android:id="@+id/view9"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="16dp"
         android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16sp"
         android:background="@color/background"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,11 +59,11 @@
         app:layout_constraintTop_toBottomOf="@+id/backButton" />
 
     <ScrollView
+        android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/num1"
-        android:visibility="gone"
         android:layout_marginTop="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -146,9 +146,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -177,11 +177,11 @@
     </ScrollView>
 
     <ScrollView
+        android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/num2"
-        android:visibility="gone"
         android:layout_marginTop="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -196,7 +196,6 @@
             app:layout_constraintTop_toBottomOf="@+id/view9">
 
 
-
             <com.codesgood.views.JustifiedTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -208,27 +207,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: I"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PENGUMPULAN DATA DAN ANALISIS DATA"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -371,27 +370,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: II"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PEMILIHAN STRATEGI PEMBANGUNAN DAERAH"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -480,27 +479,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: III"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PEMILIHAN PROYEK-PROYEK PEMBANGUNAN"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -562,27 +561,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: IV"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PEMBUATAN RENCANA TINDAKAN"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -698,27 +697,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: V"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PENENTUAN RINCIAN PROYEK"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -807,27 +806,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_rounded"
-                android:padding="10dp"
                 android:layout_marginTop="16sp"
-                android:orientation="vertical">
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tahap: VI"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Kegiatan: PERSIAPAN PERENCANAAN SECARA KESELURUHAN DAN IMPLEMENTASI"
-                    android:textStyle="bold"
+                    android:textColor="@color/white"
                     android:textSize="16sp"
-                    android:textColor="@color/white" />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -944,33 +943,86 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginTop="16dp"
-                android:background="@color/background"/>
+                android:background="@color/background" />
 
-
-            <com.codesgood.views.JustifiedTextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_marginTop="16sp"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textSize="16sp"
                 android:background="@drawable/bg_rounded"
-                android:textColor="@color/white"
-                android:text="Sebuah sistem informasi terencana (pengumpulan dan analisis data) seyogyanya mencangkup 5 bidang utama , yaitu: 1. evaluasi atas siklus perencanaan sebelumnya 2. kinerja dari proyek-proyekpembangunan sebelumnya yang dilakukan oleh daerah tersebut dan daerah sejenisnya 3. Penaksiran atas semua sumberdaya pembangunan yang berada di luar daerah namun tersedia dan potensial untuk tersedia dana pabrik atau swasta yang dapat diinvestasikan pada bidang yang diinginkan oleh pembangunan ekonomi daerah bakat-bakat khusus atau kapabilitas individual dan lembaga-lembaga yang dapat ditarik dan sebagainya 4. karakteristik dan dinamika kondisi daerah khususnya data perekonomian, infrastruktur, karakteristik fisik dan sosial sumber daya dan institusi dan sebagainya 5 keterkaitan antara kondisi daerah dengan daerah-daerah lainnya." />
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:text="Sebuah sistem informasi terencana (pengumpulan dan analisis data) seyogyanya mencangkup 5 bidang utama , yaitu:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="1. evaluasi atas siklus perencanaan sebelumnya."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="2. kinerja dari proyek-proyekpembangunan sebelumnya yang dilakukan oleh daerah tersebut dan daerah sejenisnya."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="3. Penaksiran atas semua sumberdaya pembangunan yang berada di luar daerah namun tersedia dan potensial untuk tersedia dana pabrik atau swasta yang dapat diinvestasikan pada bidang yang diinginkan oleh pembangunan ekonomi daerah bakat-bakat khusus atau kapabilitas individual dan lembaga-lembaga yang dapat ditarik dan sebagainya."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="4. karakteristik dan dinamika kondisi daerah khususnya data perekonomian, infrastruktur, karakteristik fisik dan sosial sumber daya dan institusi dan sebagainya."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="5. keterkaitan antara kondisi daerah dengan daerah-daerah lainnya."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
+                android:layout_marginTop="10dp"
                 android:text="lihat bagan berikut:"
-                android:textStyle="bold"
                 android:textColor="@color/white"
-                android:layout_marginTop="10dp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/img4"
-                android:contentDescription="@string/image"
                 android:layout_width="match_parent"
-                android:layout_height="350dp" />
+                android:layout_height="350dp"
+                android:contentDescription="@string/image" />
 
         </LinearLayout>
 
@@ -978,11 +1030,11 @@
     </ScrollView>
 
     <ScrollView
+        android:id="@+id/num3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/num3"
-        android:visibility="gone"
         android:layout_marginTop="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -1056,9 +1108,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -1087,11 +1139,11 @@
     </ScrollView>
 
     <ScrollView
+        android:id="@+id/num4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/num4"
-        android:visibility="gone"
         android:layout_marginTop="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -1165,9 +1217,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -1196,11 +1248,11 @@
     </ScrollView>
 
     <ScrollView
+        android:id="@+id/num5"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:id="@+id/num5"
-        android:visibility="gone"
         android:layout_marginTop="16sp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
 
@@ -1217,7 +1269,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
                 android:padding="10dp"
@@ -1245,7 +1297,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
                 android:padding="10dp"
@@ -1273,10 +1325,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -1300,14 +1351,12 @@
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -1331,14 +1380,13 @@
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="horizontal"
-                android:layout_marginBottom="30dp"
                 android:padding="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -1366,7 +1414,6 @@
 
 
     </ScrollView>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

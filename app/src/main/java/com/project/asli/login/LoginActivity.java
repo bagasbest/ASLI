@@ -45,15 +45,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-
-        /// kembali ke halaman sebelumnya
-        binding.backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                onBackPressed();
-            }
-        });
-
         binding.register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

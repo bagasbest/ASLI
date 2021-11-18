@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu41Activity">
+
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="@+id/backButton" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+
+    <ScrollView
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_marginStart="16sp"
+        android:layout_marginEnd="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adanya intervensi pemerintah mungkin dapat mengurangi kemungkinan terjadinya kegagalan pasar (market failure), namun banyak juga diantara intervensi pemerintah tersebut ternyata gagal dalam mendukung bekerjanya mekanisme pasar."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bagaimanapun juga banyak NSB, dengan segala keterbatasan sistem dan kerangka hukum yang mereke miliki, justru menghasilkan kebijakan-kebijakan yang sangat kontra terhadap dunia usaha. Tabel 15.1 berikut mengindikasikan perkembangan indikator kepemerintahan di Indonesia selama beberapa tahun silam."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginTop="16sp"
+                android:id="@+id/table1"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berdasarkan enam ukuran kepemerintahan yang ada, Indonesia menduduki tempat terbawah, kalah jauh dengan negara lain seperti Malaysia, Thailand dan RRC (ADB, 2005). Nilai Indonesia di bidang ketaatan hukum, kualitas peraturan dan keefektidan peraturan pemerintah juga sangat rendah, lebih rendah dari negara-negara tetangga (lihat tabel 15.1)."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terlebih lagi, kecendrungannya dalam periode 1996-2002 memburuk. Pemerintah yang baik membutuhkan akuntabilitas, partisipasi masyarakat, kejelasan peraturan dan transparansi dalam pelaksanaan. Hal ini merupakan tantangan bagi pemerintah baru, terutama kalau target pertumbuhan ekonomi yang lebih tinggi ingin tercapai. Disinilah peran yang saling melengkapi (complement) antar institusi-institusi terkait sangat mutlak diperlukan."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16sp"
+        android:visibility="gone"
+        android:layout_marginEnd="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adanya intervensi pemerintah mungkin dapat mengurangi kemungkinan terjadinya kegagalan pasar (market failure), namun banyak juga diantara intervensi pemerintah tersebut ternyata gagal dalam mendukung bekerjanya mekanisme pasar."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selama ini, banyak diantara perusahaan yang mengeluhkan bahwa hambatan birokrasi di Indonesia lebih kompleks dibandingkan di negara lain. Pada dasarnya, semua hambatan utama di Indonesia berkaitan erat dengan adanya ketidakpastian dan tata kelola pemerintahan yang masih buruk, sehingga biaya birokrasi tergolong tinggi (lihat Tabel 15.2)."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="16sp"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:id="@+id/table2" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi kalangan dunia usaha, adanya ketidakpastian tentu saja akan menyulitkan perencanaan dan meningkatkan risiko usaha yang pada akhirnya akan menurunkan keuntungan dan investasi. Masalah-masalah berikut seperti:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(1)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ketidakstabilan ekonomi makro,"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(2)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kriminalitas dan pelanggaran hukum, dan "
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(3)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ketidakjelasan kebijakan ekonomi dan regulasi, ternyata berkaitan erat dengan adanya ketidakpastian."
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="16sp"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY"
+                android:id="@+id/table3" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berdasarkan indeks persepsi korupsi yang disusun oleh lembaga transparannsi internasional (2003), Indonesia menduduki urutan 122 dari total 133 negara di dunia, jauh lebih buruk jika dibandingkan negara ASEAN lainnya (lihat Tabel 15.3)."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perlu diketahui tingkat korupsi di Indonesia semakin memburuk sejak orde reformasi bergulir dan desentralisasi daerah mulai diagungkan. jika, sebelumnya, para pegusaha tahu berapa besar dan kepada siapa sejumlah tertentu rupiah harus dibayarkan agar urusannya lancar. Sekarang semuanya serba tidak jelas, sementara urusan juga belum tentu terjamin kelancarannya. Ketidakjelasan ini tentu saja akan berimbas buruk bagi dunia usaha."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/num3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16sp"
+        android:visibility="gone"
+        android:layout_marginEnd="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menurut World Bank (2002), kapasitas SDM menentukan kualitas aturan (rules) yang diciptakan dalam menjembatani transaksi-transaksi pasar, dan tingkat penegakan (enforcement) dari aturan-aturan itu sendiri."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sebagai contoh, sebuah otoritas pengawas dan pengatur kompetisi (seperti komisi pengawas persaingan usaha indonesia), tentu saja memerlukan seserang yang mampu memahami tentang kompleksitas kompetisi dan mampu menawarkan solusi atas konflik yang mungkin terjadi."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/num4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16sp"
+        android:visibility="gone"
+        android:layout_marginEnd="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Regulasi teknologi dengan standar tertentu di negara-negara maju belum tentu sesuai jika regulasi tersebut diaplikasikan di NSB. Di sebagian besar NSB, para penyedia jasa infrastruktur biasanya menggunakan teknologi yang hemat biaya (low-cost technology). Pertimbangan untuk menggunakan teknologi yang hemat biaya tentu saja didasari alasan-alasan ekonomis tertentu."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adanya teknologi baru yang berwujud internet memungkinkan pemerintah untuk dapat memantau kinerja dan efektivitas dari regulasi dan kebijakan mereka. Adanya arus informasi yang tanpa batas juga memungkinkan para pelaku usaha untuk dapat mengetahui arah kebijakan pemerintah, dengan begitu mekanisme pasar pun dapat dengan mudah melakukan penyesuaian (market adjustment)."
+                    android:textColor="@color/white"
+                    android:layout_marginTop="16sp"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -140,15 +140,25 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:textSize="16sp"
-                    android:text="4. Kecendroungan menabung (marginal propensity to save = MPS) besarnya tetap, demikian juga rasio antara model-output (capital-output ratio = COR) dan rasio pertambahan model-output (incremental capital-output -ICOR). Cor dan ICOR yang tetap ini bisa dilihat pada grafik dibawah ini"
+                    android:text="4. Kecendroungan menabung (marginal propensity to save = MPS) besarnya tetap, demikian juga rasio antara model-output (capital-output ratio = COR) dan rasio pertambahan model-output (incremental capital-output -ICOR)."
                     android:textColor="@color/white" />
 
             </LinearLayout>
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text=" Cor dan ICOR yang tetap ini bisa dilihat pada grafik dibawah ini:" />
+
 
             <ImageView
                 android:id="@+id/img1"
                 android:contentDescription="@string/image"
                 android:layout_width="match_parent"
+                android:layout_marginTop="16sp"
                 android:layout_height="280dp" />
 
             <TextView
@@ -163,7 +173,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="16sp"
                 android:layout_marginBottom="30dp"
                 android:background="@drawable/bg_rounded"
                 android:orientation="vertical"
@@ -180,7 +190,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16sp"
                     android:text="Untuk menghasilkan output sebesar Q1 diperlukan modal K1 dan tenaga kerja L1, dan apabila kombinasi itu berubah maka tingkat output berubah. Untuk output sebesar Q2, misalnya hanya dapat diciptakan jika stok modal sebesar K2. Menurut Harrod-Domar, setiap perekonomian dapat menyisihkan suatu proporsi tertentu dari pendapatan nasionalnya jika hanya untuk mengantikan barang-barang modal (gedung-gedung, peralatan, material) yang rusak. Namun demikian, untuk menumbuhkan perekonomian tersebut, diperlukan investasiinvestasi baru sebagai tambahan stok modal. "
                     android:textColor="@color/white" />
 
@@ -188,7 +198,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="16sp"
                     android:textSize="16sp"
                     android:text="Jika kita menganggap bahwa ada hubungan ekonomis secara langsung antara besarnya stok modal (K) dan output total (Y), misalnya jika 3 rupiah modal diperlukan untuk menghasilkan (kenaikan) output total sebesar 1 rupiah, maka setiap tambahan bersih terhadap stok modal (investasi baru) akan mengakibatkan kenaikan output total sesuai dengan rasio modal-output tersebut."
                     android:textColor="@color/white" />

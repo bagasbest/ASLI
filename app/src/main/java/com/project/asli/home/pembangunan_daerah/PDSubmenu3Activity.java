@@ -42,7 +42,7 @@ public class PDSubmenu3Activity extends AppCompatActivity {
         });
 
 
-        binding.num1.setOnClickListener(new View.OnClickListener() {
+        binding.num2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showPopup("Teori Basis Ekonomi", "Teori ini menyatakan bahwa faktor penentu utama pertumbuhan ekonomi suatu daerah adalah berhubungan langsung dengan permintaan akan barang dan jasa dari luar daerah Kelemahan model ini adalah bahwa model ini didasarkan pada permintaan eksternal bukan internal dan pada akhirnya akan menyebabkan ketergantungan yang sangat tinggi terhadap kekuatan kekuatan pasar nasional maupun global.\n");
@@ -50,31 +50,24 @@ public class PDSubmenu3Activity extends AppCompatActivity {
         });
 
 
-        binding.num2.setOnClickListener(new View.OnClickListener() {
+        binding.num3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showPopup("Teori Lokasi", "Teori ini menitik beratkan pada lokasi atau tempat,  dimana pengembangan lokasi atau tempat tersebut digunakan untuk mengembangkan kawasan Industri.  perusahaan cenderung untuk meminimalisir biaya-biaya yang dikeluarkan dalam memilih tempat kegiatan serta memaksimalkan peluang untuk mendekati pasar sasaran hasil produksinya. kelemahan teori ini adalah bahwa teknologi dan komunikasi sudah begitu jauh berkembang dan telah mengubah peran lokasi tertentu untuk kegiatan produksi dan industri barang.\n");
             }
         });
 
-        binding.num3.setOnClickListener(new View.OnClickListener() {
+        binding.num4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showPopup("Teori Tempat Sentral", "Teori tempat Sentral ini didukung oleh sejumlah Tempat yang menyediakan sumber daya seperti bahan baku, tenaga kerja yang merupakan suatu wilayah pemukiman penyedia jasa- jasa bagi penduduk daerah sekitarnya.\n");
             }
         });
 
-        binding.num4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                showPopup("Teori kausasi kumulatif", "Pembangunan ekonomi daerah adalah suatu proses yaitu suatu proses yang mencangkup pembentukan institusi-institusi baru, pembangunan industry-industry alternatif. Perbaikan kapasitas tenaga kerja yang ada untuk menghasilkan pruduk dan jasa yang lebih baik, identifikasi pasar-pasar baru, alih ilmu pengetahuan dan pengembaran perusahaan-perusahaan baru. \n");
-            }
-        });
-
         binding.num5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Pembangunan Ekonomi Daerah", "Pembangunan di daerah-daerah yang lebih maju akan menyebabkan suatu keadaan yang akan menimbulkan hambatan yang lebih besar pada daerah yang terbelakang untuk dapat maju dan berkembang. Suatu keadaan yang dapat menghambat perkembangan ini digolongkannya sebagai backwass effects. Disisi lain perkembangan di daerah yang lebih maju juga dapat menimbulkan suatu keadaan yang akan mendorong perkembangan bagi daerah yang lebih msikin dan dinamakan spread effects.\n");
+                showPopup("Teori kausasi kumulatif", "Pembangunan di daerah-daerah yang lebih maju akan menyebabkan suatu keadaan yang akan menimbulkan hambatan yang lebih besar pada daerah yang terbelakang untuk dapat maju dan berkembang. Suatu keadaan yang dapat menghambat perkembangan ini digolongkannya sebagai backwass effects. Disisi lain perkembangan di daerah yang lebih maju juga dapat menimbulkan suatu keadaan yang akan mendorong perkembangan bagi daerah yang lebih msikin dan dinamakan spread effects.\n");
             }
         });
 

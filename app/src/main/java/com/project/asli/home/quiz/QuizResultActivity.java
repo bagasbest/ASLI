@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -38,6 +39,7 @@ public class QuizResultActivity extends AppCompatActivity {
     private String name;
     private static final String SHARED_PREFS = "sharedPrefs";
     private String myUid;
+    private String nim;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -94,7 +96,7 @@ public class QuizResultActivity extends AppCompatActivity {
 
                         double totalScore = (Double.parseDouble(String.valueOf(getIntent().getIntExtra(CORRECT, 0))) / Double.parseDouble(String.valueOf(getIntent().getIntExtra(TOTAL, 0)))) * 100;
 
-                        if(Double.parseDouble(standard) >= totalScore) {
+                        if(totalScore >=  Double.parseDouble(standard)) {
                             binding.keteranganLulus.setText("Keterangan: Lulus");
                         } else {
                             binding.keteranganLulus.setText("Keterangan: Tidak Lulus");
@@ -113,6 +115,7 @@ public class QuizResultActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {
                         name = "" + documentSnapshot.get("name");
+                        nim = "" + documentSnapshot.get("nim");
                         binding.nameEt.setText(name);
                     }
                 });
@@ -134,6 +137,7 @@ public class QuizResultActivity extends AppCompatActivity {
         score.put("scoreId", scoreId);
         score.put("score", scores);
         score.put("name", name);
+        score.put("nim", nim);
         score.put("quizType", getIntent().getStringExtra(TYPE));
         score.put("nameTemp", name.toLowerCase());
         score.put("userId", myUid);

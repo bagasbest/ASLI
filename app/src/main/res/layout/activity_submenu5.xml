@@ -92,8 +92,8 @@
                 android:orientation="vertical"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Konsep pertumbuhan yang lainnya yaitu konsep pertumbuhan endogen."
                     android:textColor="@color/white"
@@ -125,7 +125,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="16dp"
                         android:textSize="16sp"
                         android:text="Model pertumbuhan endogen mempunyai kemiripan struktural dengan teori  pertumbuhan neoklasik, namun berbeda dalam hal asumsi yang mendasarinya dan kesimpulan yang ditarik darinya. Teori ini berupaya untuk menjelaskan keberadaan"
                         android:textColor="@android:color/white" />
@@ -155,7 +155,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="16dp"
                         android:textSize="16sp"
                         android:text="Salvatore (1997) mengatakan bahwa teori ini mampu menyajikan suatu ulasan analitis yang lebih menyeluruh dan meyakinkan mengenai hubungan antara perdagangan internasional dengan pembangunan dan pertumbuhan ekonomi dalam jangka panjang."
                         android:textColor="@android:color/white" />
@@ -163,7 +163,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="16dp"
                         android:textSize="16sp"
                         android:text="Secara spesifik, teori baru pertumbuhan ekonomi endogen ini menyatakan bahwa pendapatan penurunan hambatan-hambatan perdagangan dalam berbagai bentuk, baik tarif maupun non-tarif, akan mempercepat tingkat pertumbuhan ekonomi dan pembangunan di suatu negara dalam jangka panjang."
                         android:textColor="@android:color/white" />
@@ -204,9 +204,9 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="16dp"
                         android:textSize="16sp"
-                        android:text=" Potensi tingkat pengembalian investasi yang tinggi yang ditawarkan oleh negara berkembang yang mempunyai rasio modal-tenaga kerja yang rendah berkurang dengan cepat dikarenakan rendahnya tingkat investasi komplementer (complementary investments) dalam sumber daya manusia (pendidikan), infrastruktur, atau riset dan pengembangan (R 3 D)."
+                        android:text=" Potensi tingkat pengembalian investasi yang tinggi yang ditawarkan oleh negara berkembang yang mempunyai rasio modal-tenaga kerja yang rendah berkurang dengan cepat dikarenakan rendahnya tingkat investasi komplementer (complementary investments) dalam sumber daya manusia (pendidikan), infrastruktur, atau riset dan pengembangan (RND)."
                         android:textColor="@color/white" />
 
                 </LinearLayout>

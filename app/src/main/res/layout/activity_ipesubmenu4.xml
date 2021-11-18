@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu4Activity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Membangun institusi yang efektif"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toTopOf="@+id/backButton" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16sp"
+        android:background="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institusi dan mekanisme pasar"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:padding="10dp"
+                    android:background="@drawable/bg_rounded"
+                    android:text="Pasar didefinisikan sebagai sebuah mekanisme dimana kekuatan-kekuatan yang ada didalamnya (supply dan demand) saling berinteraksi dalam menentukan harga dan kuantitas barang dan jasa. Pada umumnya, banyak orang mendefinisikan pasar hanya sebatas sebagai lokasi (tempat) tertentu di mana penjual dan pembeli bertemu, berinteraksi, dan kemudian melakukan transaksi jual-beli."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:text="Pasar dengan struktur sederhana biasanya hanya terdiri dari sedikit pemain didalamnya, serta intensitas interaksi dan nilai transaksinya pun masih sangat terbatas. Dengan kondisi pasar yang tidak begitu kompleks tingkat pengawasan dan pengendalian atas mekanisme yang ada didalamnya pun tidak terlalu rumit."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:text="Pasar yang memiliki struktur yang kompleks dimana jumlah pemain, intensitas transaksi, dan ilai transaksinya pun secara nominal tidak sedikit. Dalam kondisi seperti ini dibutuhkan sebuah kontrol dan regulasi yang mampu mengatur dan memposisikan agar pasar tersebut tetap dalam kondisi keseimbangan (equilibrium)."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sebagian besar perekonomian mempunyai kedua jenis pasar tersebut. Jenis pasar yang pertama akan lebih sering ditemui di NSB, sedangkan jenis pasar yang kedua merupakan ciri yang melekat pada negara-negara maju."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:text="Oleh sebab itu, keberadaan sebuah institusi yang mendukung bekerjanya sistem pasar pun mutlak diperlukan. Semakin kompleks sebuah sistem, semakin beragam jejaring (network) yang dibutuhkan untuk mengakses atau bahkan melintasi sistem tersebut. Implikasinya biaya yang diperlukan juga semakin tinggi. Dengan demikian keberadaan sebuah institusi pun semakin penting terutama guna meminimumkan biaya transaksi (transaction cost) yang semakin tinggi."
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_rounded"
+                android:text="Pemahaman yang baik tentang cara kerja sebuah institusi dalam sistem pasar merupakan titik tolak untuk memahami tahap-tahap pengembangan institusi yang efektif. Berikut ini adalah tiga peran institusi dalam mendukung bekerjanya mekanisme pasar:"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="16sp"
+                android:id="@+id/btn1"
+                android:textAlignment="textStart"
+                android:text="Tiga peran institusi dalam mendukung bekerjanya mekanisme pasar" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institusi yang efektif"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp"
+                android:textStyle="bold" />
+
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="World Bank dalam laporan tahunannya, world development report (2002) menyebutkan bahwa ada empat prinsip dalam membangun institusi yang efektif, yaitu:"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginTop="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Komplementaritas"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menurut World Bank (2002), seiring dengan perkembangan sebuah negara, maka jenis institusi yang diperlukan juga turut berubah. Sebuah institusi yang dapat bekerja secara efektif di negara-negara maju, mungkin tidak akan memberikan kontribusi yang sama jika diterapkan di NSB. Hal tersebut antara lain disebabkan oleh adanya perbedaan dalam:"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(1)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Institusi-institusi pelengkap (complementary institutions), misalnya mengenai keberadaan dan kinerja institusi-institusi yang mendukung terciptannya good governance dilingkungan pemerintahan dan adanya penegakan hukum (law enforcement),"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(2)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tingkat dan persepsi korupsi oleh setiap negara,"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(3)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Biaya-biaya dalam menciptakan sebuah institusi,"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(4)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kapasitas administratif termasuk didalamnya adalah kapasitas SDM dan"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingRight="10dp"
+                        android:text="(5)"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tingkat teknologi"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berikut ini penjelasan untuk tiap - tiap poin:"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Institusi-institusi pelengkap"
+                android:textAlignment="textStart"
+                android:id="@+id/btn2"
+                android:layout_marginTop="16sp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Biaya, kapasitas dan korupsi"
+                android:textAlignment="textStart"
+                android:id="@+id/btn3"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Kapasitas SDM"
+                android:textAlignment="textStart"
+                android:id="@+id/btn4"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Tingkat teknologi"
+                android:textAlignment="textStart"
+                android:id="@+id/btn5"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Inovasi"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Meskipun diasumsikan mempunyai tingkatan pembangunan yang sama, beberapa negara biasanya memiliki perbedaan dalam beberapa hari, misalnya: norma, kondisi geogradis, dan endowment factor. Sebuah inovasi dinilai mampu mengakomodasikan perbedaan-perbedaan yang ada dan menciptakan institusi yang lebih efektif."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menurut world bank (2002) proses inovasi di sebuah negara setidaknya dapat terjadi pada tiga level, yaitu: 1) pembuatan kebijakan-kebijakan publik oleh pemerintah, 2) praktek dilevel bisnis, dan 3) aksi lokal oleh komunitas tertentu didalam masyarakat. Adanya inovasi-inovasi oleh komunitas lokal mempunyai beberapa keuntungan diantaranya banyaknya ide-ide inovasi."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Di Indonesia sendiri, seiring dengan diberlakukannya otonomi daerah, pemerintah dituntut untuk dapat melakukan pembaruan di berbagai sektor guna menghadapi tuntutan masyarakat yang semakin kompleks. Inovasi menjadi suatu keharusan yang mesti dilakukan agar keberadaan pemerintah menjadi lebih bermakna dimata rakyatnya. Sebagai salah satu langkah awal pemerintah terkait dapat melakukan inovasi pada dua hal yaitu  inovasi pada institusi dan inovasi pada regulasi."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="16sp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Konektivitas"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Era globalisasi menuntut adanya perubahan yang progresif pada arus informasi dan perdagangan bebas. Oleh karena itu, kelancaran arus informasi guna menghubungkan para pelaku ekonomi dan pasar pun mutlak diperlukan. Jika arus informasi diantaran para pelaku ekonomi tidak setara atau asimetris maka sudah dapat dipastikan pasar akan terdistorsi. Akibatnya biaya transaksi pun semakin tinggi."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tuntutan terhadap paradigma good governance dalam seluruh kegiatan tidak dapat dielakan lagi. Salah satu cara mewujudkan good governance adalah dengan adanya transparansi dan keterbukaan atas informasi. Asian Development Bank (ADB) dalam sebuah publikasinya, Good Governance And Anticorruption: The Road Forward For Indonesia (1999) mendefinisikan good governance sebagai terlaksannya tata kelola ekonomi, politik dan sosial dengan baik. Salah satu indikator adanya transparansi dan keterbukaan adalah rendahnya tingkat penyimpangan (misalnya korupsi)dalam setiap aktivitas ekonomi. Semakin tinggi tingkat transparansi dan keterbukaan dari aktivitas ekonomi maka seharusnya semakin rendah pula kemungkinan korupsi yang terjadi."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Menurut hasil riset ADB (1999) ditemukan bahwa indonesia menduduki posisi paling parah dalam hal indeks good governance, indeks korupsi dan indeks efisiensi peradilan dibandingkan dengan beberapa negara ASEAN lainnya, indeks good governance indonesia hanya sebesar 2,88, sangat jauh dibawah singapura (8,93), malaysia (7,72), thailand (4,89), maupun filipina (3,47). Indeks ini menunjukkan bahwa semakin rendah angka indeksi maka tingkat good governance juga semakin rendah, dan sebaliknya. (lihat tabel 15.4)"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="155dp"
+                android:layout_marginTop="16sp"
+                android:id="@+id/table4"
+                android:contentDescription="@string/image"
+                android:scaleType="fitXY" />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16sp"
+                android:background="@color/background" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="16sp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_rounded"
+                android:orientation="vertical">
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Kompetisi"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dewasa ini, kompetisi telah menjadi buzzword yang telah merasuki pemikiran setiap orang, khususnya di dunia bisnis. Tanpa adanya kompetisi , kemajuan-kemajuan dunia tak akan sepesat sekarang. Disisi lain, semakin sengitnya kompetisi juga menuntut adanya kesiapan institusi dari komunitas (baik industri, negara maupun daerah) setempat untuk terus berubah demi mengimbangi tuntutan pasar (institutional change)"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kompetisi mampu memberikan semacam dorongan pada seseorang untuk dapat maju dan berkembang. Kompetisi yang sengit juga menuntut adanya inovasi-inovasi untuk dapat bertahan didalamnya. Para inovator tentu saja akan enggan melakukan inovasi tanpa adanya perlindungan dan penghargaan atas inovasi-inovasi mereka. Perlindungan tersebut terwujud adanya kerangka hukum yang mampu melindungi hak cipta intelektual (intellectual property right) mereka, sedangkan penghargaan berwujud adanya sistem insentif (reward system) yang mampu mendorong mereka untuk terus maju dan berkembang."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sebagian institusi bertindak sebagai motivator bagi kompetisi dan sebagian lagi bertindak represor bagi kompetisi, seua tergantung pada pola kebijakan dan regulasi yang dianut pemerintah dalam menyikapi pergerakan pasar."
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
+        Glide.with(this)
+                .load(R.drawable.ic_baseline_home_24)
+                .into(binding.icon);
 
         /// delay di splash screen selama 4 second
         final Handler handler = new Handler();

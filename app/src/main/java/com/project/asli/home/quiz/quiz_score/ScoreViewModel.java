@@ -31,6 +31,7 @@ public class ScoreViewModel extends ViewModel {
                                 model.setQuizType("" + document.get("quizType"));
                                 model.setScore(document.getDouble("score"));
                                 model.setUserId("" + document.get("userId"));
+                                model.setNim("" + document.get("nim"));
 
                                 scoreModelArrayList.add(model);
                             }

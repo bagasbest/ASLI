@@ -36,6 +36,9 @@ public class PDSubmenu51Activity extends AppCompatActivity {
                 break;
             case "Location quotients":
                 binding.num2.setVisibility(View.VISIBLE);
+                Glide.with(this)
+                        .load(R.drawable.lq)
+                        .into(binding.img5);
                 break;
             case "Analisis overlay":
                 binding.num3.setVisibility(View.VISIBLE);
@@ -50,10 +53,6 @@ public class PDSubmenu51Activity extends AppCompatActivity {
                         .load(R.drawable.img7)
                         .into(binding.img7);
 
-                Glide.with(this)
-                        .load(R.drawable.img9)
-                        .into(binding.img8);
-
                 break;
             case "Analisis input-output":
                 binding.num5.setVisibility(View.VISIBLE);
@@ -64,16 +63,14 @@ public class PDSubmenu51Activity extends AppCompatActivity {
             case "Rasio penduduk-pengerjaan (RPP)":
                 binding.num6.setVisibility(View.VISIBLE);
                 break;
-            case "Kapasitas pengembangan ekonomi masyarakat":
-                binding.num7.setVisibility(View.VISIBLE);
-                break;
         }
 
         binding.btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Kriteria penggolongan LQ", "1. Kegiatan industri yang melayani pasar di daerah itu sendiri maupun di luar daerah yang bersangkutan industri seperti ini dinamakan industri basis\n\n" +
-                        "2. Kegiatan ekonomi atau industri yang hanya melayani pasar di daerah tersebut jenis industri ini dinamakan industri non basis atau industri lokal\n");
+                showPopup("Kriteria penggolongan LQ", "• LQ = 1 berarti produk domestik yang dimiliki daerah tersebut habis dikonsumsi oleh daerah tersebut\n\n" +
+                        "• LQ > 1, berarti sektor yang ada di daerah tersebut merupakan sektor basis yang mampu mengekspor hasil industrinya ke daerah lain\n\n" +
+                        "• LQ < 1 berarti sektor yang ada di daerah tersebut bukan merupakan sektor basis dan cenderung untuk mengimpor di daerah lain\n\n");
 
             }
         });
@@ -92,8 +89,8 @@ public class PDSubmenu51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showPopup("Tiga Kelemahan Penggunaan LQ", "1. Berasumsi bahwa permintaan di setiap daerah identik dengan pola permintaan bangsa dan bahwa produktivitas setiap pekerja di setiap sektor regional sama dengan produktivitas setiap pekerja dalam industri industri nasional. Selera atau pola konsumsi dari anggota masyarakat sering kali berbeda baik antar daerah maupun dalam suatu daerah\n\n" +
-                        "Tingkat konsumsi rata-rata untuk suatu jenis barang untuk setiap daerah adalah berbeda artinya konsumsi rata-rata bahan pakaian daerah A lebih besar dari 1 namun daerah A mengimpor bahan pakaian, sedang daerah B yang LQ industri bahan pakaian lebih kecil dari 1 namun dapat mengekspor bahan pakaian\n\n" +
-                        "Bahan keperluan industri berbeda antar daerah. Artinya daerah A memakai benang tenun dari kapas sedang daerah B lebih banyak memakai bahan tenun sintetis. Meskipun industri permintaan kapas daerah a mempunyai LQ lebih besar dari 1, daerah itu mungkin harus mengimpor bahan tenun dari daerah B yang mungkin industri tekstil di daerah B mempunyai LQ kurang dari 1\n\n");
+                        "2. Tingkat konsumsi rata-rata untuk suatu jenis barang untuk setiap daerah adalah berbeda artinya konsumsi rata-rata bahan pakaian daerah A lebih besar dari 1 namun daerah A mengimpor bahan pakaian, sedang daerah B yang LQ industri bahan pakaian lebih kecil dari 1 namun dapat mengekspor bahan pakaian\n\n" +
+                        "3. Bahan keperluan industri berbeda antar daerah. Artinya daerah A memakai benang tenun dari kapas sedang daerah B lebih banyak memakai bahan tenun sintetis. Meskipun industri permintaan kapas daerah a mempunyai LQ lebih besar dari 1, daerah itu mungkin harus mengimpor bahan tenun dari daerah B yang mungkin industri tekstil di daerah B mempunyai LQ kurang dari 1\n\n");
 
             }
         });
@@ -134,6 +131,14 @@ public class PDSubmenu51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showPopup("Lembaga-lembaga Pendidikan dan Pelatihan", "Pendidikan, terutama pendidikan tinggi merupakan sumber daya utama dalam pembangunan ekonomi, lembaga-lembaga pendidikan dalam pelatihan akan mampu menyediakan sumber daya manusia yang terlatih dan keahlian keaslian di bidang penelitian dan pengembangan bagi program pembangunan ekonomi.\n");
+
+            }
+        });
+
+        binding.btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showPopup("Kelemahan model analisis shift share", "1. Hanya dapat digunakan untuk analisis Ex-post.\n2. Ada data periode waktu tertentu di tengah tahun pengamatan yang tidak terungkap.\n3. Analisis ini sangat berbahaya sebagai alat peramalan, Mengingat bahwa regional shift tidak konstan dari satu periode ke periode lainnya.\n4. Tidak dapat dipakai untuk melihat keterkaitan antar sektor.\n5. Tidak ada keterkaitan antar daerah.");
 
             }
         });
