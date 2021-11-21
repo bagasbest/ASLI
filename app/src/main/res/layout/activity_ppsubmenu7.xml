@@ -377,7 +377,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="upaya untuk menetapkan semacam harga maksimum (ceiling price ini dilakukan pemerintah dengan berbagai cara misalnya dengan kebijakan pengadaan dengan pemberian subsidi harga atau dengan kebijakan-kebijakan lainnya yang pada prinsipnya bertujuan sama."
+                        android:text="upaya untuk menetapkan semacam harga maksimum (ceiling price) ini dilakukan pemerintah dengan berbagai cara misalnya dengan kebijakan pengadaan dengan pemberian subsidi harga atau dengan kebijakan-kebijakan lainnya yang pada prinsipnya bertujuan sama."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 

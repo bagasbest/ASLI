@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
                     android:layout_marginTop="16sp"
-                    android:text="Untuk menghasilkan output sebesar Q1 diperlukan modal K1 dan tenaga kerja L1, dan apabila kombinasi itu berubah maka tingkat output berubah. Untuk output sebesar Q2, misalnya hanya dapat diciptakan jika stok modal sebesar K2. Menurut Harrod-Domar, setiap perekonomian dapat menyisihkan suatu proporsi tertentu dari pendapatan nasionalnya jika hanya untuk mengantikan barang-barang modal (gedung-gedung, peralatan, material) yang rusak. Namun demikian, untuk menumbuhkan perekonomian tersebut, diperlukan investasiinvestasi baru sebagai tambahan stok modal. "
+                    android:text="Untuk menghasilkan output sebesar Q1 diperlukan modal K1 dan tenaga kerja L1, dan apabila kombinasi itu berubah maka tingkat output berubah. Untuk output sebesar Q2, misalnya hanya dapat diciptakan jika stok modal sebesar K2. Menurut Harrod-Domar, setiap perekonomian dapat menyisihkan suatu proporsi tertentu dari pendapatan nasionalnya jika hanya untuk mengantikan barang-barang modal (gedung-gedung, peralatan, material) yang rusak. Namun demikian, untuk menumbuhkan perekonomian tersebut, diperlukan investasi-investasi baru sebagai tambahan stok modal. "
                     android:textColor="@color/white" />
 
 

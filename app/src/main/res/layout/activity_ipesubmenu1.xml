@@ -113,7 +113,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="hayami dan Ruttan (1983) mendefinisikan institusi sebagai aturan dari suaru atau organisasi yang memudahkan kooedinasi di antra orang-orang dalam masyarakat atau organisasi tersebut saling berinteraksi guna mencapai harapan masing-masing."
+                        android:text="hayami dan Ruttan (1983) mendefinisikan institusi sebagai aturan dari suatu atau organisasi yang memudahkan kooedinasi di antra orang-orang dalam masyarakat atau organisasi tersebut saling berinteraksi guna mencapai harapan masing-masing."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -251,7 +251,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="aturan-aturan informasl. Misalnya: kebiasaan, adat istiadar, tradisi, perbuatan yang dianggap tabu, dan tingkah laku dalam masyarakat, dimana kesemua hal tersebut merupakan aturan tak tertulis yang sudah tertanam dan telah berlangsung dalam masyarakat secara turun temurun. Pelanggaran atas aturan-aturan informal akan dikenakan sanksi sesuai dengan adat yang berlaku dalam masyarakat."
+                        android:text="aturan-aturan informasl. Misalnya: kebiasaan, adat istiadat, tradisi, perbuatan yang dianggap tabu, dan tingkah laku dalam masyarakat, dimana kesemua hal tersebut merupakan aturan tak tertulis yang sudah tertanam dan telah berlangsung dalam masyarakat secara turun temurun. Pelanggaran atas aturan-aturan informal akan dikenakan sanksi sesuai dengan adat yang berlaku dalam masyarakat."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -297,7 +297,7 @@
             <ImageView
                 android:id="@+id/img11"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="280dp"
                 android:layout_marginTop="16sp"
                 android:contentDescription="@string/image" />
 
@@ -743,7 +743,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="adanya cakupan ekonomi (economies of scope), komplementaritas, dan eksternalistas jejaring dari suaru matriks institutional membuat perubahan institusional cukup besar dan path dependence."
+                        android:text="adanya cakupan ekonomi (economies of scope), komplementaritas, dan eksternalistas jejaring dari suaru matriks institutional membuat perubahan institusional cukup besar dan path dependence (ketergantungan jalur)."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 

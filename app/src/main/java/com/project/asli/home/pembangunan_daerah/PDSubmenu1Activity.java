@@ -50,7 +50,7 @@ public class PDSubmenu1Activity extends AppCompatActivity {
         binding.num3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Daerah Perencanaan atau Daerah Administrasi","Suatu daerah adalah “ruang ekonomi” yang berada di bawah atu administrasi tertentu, seperti satu provinsi, kabupaten, kecamatan, dan sebagainya. Jadi, di sini didasarkan atas pembagian administrative suatu negara. Daerah dalam definisi seperti ini disebut dengan daerah perencanaan atau daerah administrasi. \n");
+                showPopup("Daerah Perencanaan atau Daerah Administrasi","Suatu daerah adalah “ruang ekonomi” yang berada di bawah atu administrasi tertentu, seperti satu provinsi, kabupaten, kecamatan, dan sebagainya. Jadi, di sini didasarkan atas pembagian administratif suatu negara. Daerah dalam definisi seperti ini disebut dengan daerah perencanaan atau daerah administrasi. \n");
             }
         });
     }

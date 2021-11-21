@@ -251,7 +251,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="adanya krisi keuangan yang mendera sebagian besar negara-neagara dikawasan asia timur dan asia tenggara pada akhir 1990-an telah menjadikan institusi sebagai isu sentral dalam setiap pembahasan mengenai sebab terjadinya krisis tersebut. IMF secara tegas menyatakan bahwa krisis melanda negara-negara dikawasan tersebut tidak semara-mata disebabkan oleh adanya kesalahan dalam pengelolaan ekonomi makro, namun juga karena adanya buruknya institusi dinegara-negara tersebut."
+                        android:text="adanya krisis keuangan yang mendera sebagian besar negara-neagara dikawasan asia timur dan asia tenggara pada akhir 1990-an telah menjadikan institusi sebagai isu sentral dalam setiap pembahasan mengenai sebab terjadinya krisis tersebut. IMF secara tegas menyatakan bahwa krisis melanda negara-negara dikawasan tersebut tidak semata-mata disebabkan oleh adanya kesalahan dalam pengelolaan ekonomi makro, namun juga karena adanya buruknya institusi dinegara-negara tersebut."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 

@@ -24,7 +24,7 @@ public class IPESubmenu1Activity extends AppCompatActivity {
                 .into(binding.bg);
 
         Glide.with(this)
-                .load(R.drawable.institusi)
+                .load(R.drawable.new3)
                 .into(binding.img11);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {

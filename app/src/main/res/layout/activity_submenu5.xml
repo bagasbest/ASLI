@@ -149,7 +149,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
                         android:textSize="16sp"
-                        android:text="Skala hasil yang semakin meningkat dan pola pertumbuhan jangka panjang yang berbeda-beda antarnegara. Teori pertumbuhan endogen (theory of endogenous growth) dirintis oleh Romer (1986) dan Lucas (1989)."
+                        android:text="Skala hasil yang semakin meningkat dan pola pertumbuhan jangka panjang yang berbeda-beda antar negara. Teori pertumbuhan endogen (theory of endogenous growth) dirintis oleh Romer (1986) dan Lucas (1989)."
                         android:textColor="@android:color/white" />
 
                     <com.codesgood.views.JustifiedTextView

@@ -37,14 +37,14 @@ public class Submenu2Activity extends AppCompatActivity {
         binding.num1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Adam Smith", "Ide pokok dalam bukunya yang berjudul An Inquiry Into The Nature And Causes Of The Wealth Of Nations, bahwa setiap kegiatan ekonomi yang didasarkan pada mekanisme pasar dinilai kana mampu mengalokasikan setiap sumber daya secara efisien.\n" + "\n" + "Agar inti dari proses pertumbuhan ekonomi menurut smit mudah dipahami, kita bedakan dua spek utama dalam pertumbuhan ekonomi yaitu: Pertumbuhan Output Total Dan Pertumbuhan Penduduk.\n");
+                showPopup("Adam Smith", "Ide pokok dalam bukunya yang berjudul An Inquiry Into The Nature And Causes Of The Wealth Of Nations, bahwa setiap kegiatan ekonomi yang didasarkan pada mekanisme pasar dinilai karena mampu mengalokasikan setiap sumber daya secara efisien.\n" + "\n" + "Agar inti dari proses pertumbuhan ekonomi menurut smit mudah dipahami, kita bedakan dua aspek utama dalam pertumbuhan ekonomi yaitu: Pertumbuhan Output Total Dan Pertumbuhan Penduduk.\n");
             }
         });
 
         binding.num2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("David Ricardo","Dalam Bukunya Principles Of Political Economy And Taxation (1817) ricardo mengungkapkan ada beberapa teori penting yaitu: \n\n" + "a. teori tentang nilai dan harga barang \n" + "b. teori tentang distribusi pendapatan atas faktor-faktor produksi yang diuraikan dalam teori upah, teori sewa tanah, teori Bunga dan teori laba\n" + "c. teori tentang perdagangan internaisonal \n" + "d. teori tentang akumulasi dan pertumbuhan ekonomi\n");
+                showPopup("David Ricardo","Dalam Bukunya Principles Of Political Economy And Taxation (1817) Ricardo mengungkapkan ada beberapa teori penting yaitu: \n\n" + "a. teori tentang nilai dan harga barang \n" + "b. teori tentang distribusi pendapatan atas faktor-faktor produksi yang diuraikan dalam teori upah, teori sewa tanah, teori Bunga dan teori laba\n" + "c. teori tentang perdagangan internaisonal \n" + "d. teori tentang akumulasi dan pertumbuhan ekonomi\n");
             }
         });
     }

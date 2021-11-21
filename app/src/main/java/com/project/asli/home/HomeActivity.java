@@ -31,6 +31,7 @@ import com.project.asli.home.pembangunan_pertanian.PPDashboardActivity;
 import com.project.asli.home.quiz.materi1.QuizMateri1Activity;
 import com.project.asli.home.quiz.quiz_akhir.LastQuizActivity;
 import com.project.asli.home.quiz.quiz_score.QuizScoreActivity;
+import com.project.asli.home.sumber.SourceActivity;
 import com.project.asli.home.teori_pertumbuhan_dan_perkembangan_ekonomi.DashboardActivity;
 import com.project.asli.login.LoginActivity;
 
@@ -123,6 +124,15 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
+
+        /// Sumber materi
+        binding.button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, SourceActivity.class));
+            }
+        });
+
 
         /// kuis akhir
         binding.button8.setOnClickListener(new View.OnClickListener() {

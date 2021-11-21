@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ASLI">
         <activity
+            android:name=".home.sumber.SourceActivity"
+            android:exported="false" />
+        <activity
             android:name=".home.institusi_dan_pembangunan_ekonomi.IPESubmenu41Activity"
             android:exported="false" />
         <activity

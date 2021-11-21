@@ -109,7 +109,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="perencanaan pembangunan ekonomi daerah yang realistik memerlukan pemahaman yang mendalam mengenai hubungan antara daerah dengan lingkungan nasional Dimana daerah tersebut merupakan bagian dari adanya keterkaitan secara mendasar antara keduanya dan Apa konsekuensi akhir dari interaksi tersebut."
+                    android:text="perencanaan pembangunan ekonomi daerah yang realistik memerlukan pemahaman yang mendalam mengenai hubungan antara daerah dengan lingkungan nasional. Dimana daerah tersebut merupakan bagian dari adanya keterkaitan secara mendasar antara keduanya dan apa konsekuensi akhir dari interaksi tersebut."
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -166,7 +166,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Perangkat kelembagaan yang tersedia untuk pembangunan misalnya administrasi proses pengambilan keputusan dan otoritas biasanya sangat berbeda antara tingkat daerah dan tingkat pusat Selain itu derajat pengendalian kebijakan seringkali juga sangat berbeda pada kedua tingkat tersebut oleh karena itu perencanaan daerah yang efektif harus dapat membedakan Apa yang seyogyanya dilakukan dan apa yang dapat dilakukan dengan menggunakan setiap sumberdaya pembangunan sebaik mungkin yang benar-benar dapat dicapai dan mengambil manfaat dari adanya informasi yang tersedia pada tingkat daerah karena kedekatan para perencanaan dengan objek perencanaan."
+                    android:text="Perangkat kelembagaan yang tersedia untuk pembangunan misalnya administrasi proses pengambilan keputusan dan otoritas biasanya sangat berbeda antara tingkat daerah dan tingkat pusat Selain itu derajat pengendalian kebijakan seringkali juga sangat berbeda pada kedua tingkat tersebut. Oleh karena itu perencanaan daerah yang efektif harus dapat membedakan  apa yang seyogyanya dilakukan dan apa yang dapat dilakukan dengan menggunakan setiap sumberdaya pembangunan sebaik mungkin yang benar-benar dapat dicapai dan mengambil manfaat dari adanya informasi yang tersedia pada tingkat daerah karena kedekatan para perencanaan dengan objek perencanaan."
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -974,7 +974,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="2. kinerja dari proyek-proyekpembangunan sebelumnya yang dilakukan oleh daerah tersebut dan daerah sejenisnya."
+                    android:text="2. kinerja dari proyek-proyek pembangunan sebelumnya yang dilakukan oleh daerah tersebut dan daerah sejenisnya."
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -1021,7 +1021,7 @@
             <ImageView
                 android:id="@+id/img4"
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_height="320dp"
                 android:contentDescription="@string/image" />
 
         </LinearLayout>
@@ -1099,7 +1099,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lingkungan regulasi sebagai sumber daya perencanaan tentunya kita semua pahami bahwa insentif dan kebijakan kebijakan keuangan merupakan input penting bagi proses pembangunan ekonomi, dewasa ini banyak Pemerintah Daerah yang dengan sungguh-sungguh berupaya untuk mengkaji ulang sistem regulasinya demi untuk menunjukkan bahwa biaya untuk melakukan kegiatan usaha di daerah mereka cukup relevan dan representative upaya yang gigih tersebut mencerminkan Keinginan mereka untuk mencapai tingkat kebutuhan ekonomi yang tinggi atau dengan kata lain untuk menarik dan mengembangkan dunia usaha di daerahnya perlu adanya menyederhanakan sistem regulasi misalnya dewasa ini beberapa kota di berbagai negara baik negara maju maupun negara sedang berkembang telah menciptakan semacam pusat pelayanan bisnis terpadu"
+                    android:text="Lingkungan regulasi sebagai sumber daya perencanaan tentunya kita semua pahami bahwa insentif dan kebijakan kebijakan keuangan merupakan input penting bagi proses pembangunan ekonomi, dewasa ini banyak Pemerintah Daerah yang dengan sungguh-sungguh berupaya untuk mengkaji ulang sistem regulasinya demi untuk menunjukkan bahwa biaya untuk melakukan kegiatan usaha di daerah mereka cukup relevan dan representatif upaya yang gigih tersebut mencerminkan kenginan mereka untuk mencapai tingkat kebutuhan ekonomi yang tinggi atau dengan kata lain untuk menarik dan mengembangkan dunia usaha di daerahnya perlu adanya penyederhanaan sistem regulasi misalnya dewasa ini beberapa kota di berbagai negara baik negara maju maupun negara sedang berkembang telah menciptakan semacam pusat pelayanan bisnis terpadu"
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>

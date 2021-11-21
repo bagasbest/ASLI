@@ -34,7 +34,7 @@ public class PDSubmenu41Activity extends AppCompatActivity {
                 binding.title.setText(title);
                 binding.num2.setVisibility(View.VISIBLE);
                 Glide.with(this)
-                        .load(R.drawable.a)
+                        .load(R.drawable.new5)
                         .into(binding.img4);
                 break;
             case "Sumberdaya perencanaan untuk pembangunan daerah":

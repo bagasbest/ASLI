@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.pembangunan_daerah.PDSubmenu2Activity">
+    tools:context=".home.sumber.SourceActivity">
+
 
     <ImageView
         android:id="@+id/bg"
@@ -20,11 +21,11 @@
         android:id="@+id/backButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:contentDescription="@string/image"
-        android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/bg_rounded"
         android:backgroundTint="@color/background"
+        android:contentDescription="@string/image"
         android:src="@drawable/ic_baseline_arrow_back_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,10 +35,10 @@
     <TextView
         android:id="@+id/textView11"
         android:layout_width="0dp"
-        android:layout_marginEnd="16dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Definisi pembangunan ekonomi daerah"
+        android:layout_marginEnd="16dp"
+        android:text="Sumber Materi"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -51,8 +52,6 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="16dp"
-        android:layout_marginStart="16sp"
-        android:layout_marginEnd="16sp"
         android:background="@color/background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,10 +61,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded"
         android:orientation="vertical"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:layout_marginTop="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view9">
@@ -73,52 +72,22 @@
         <com.codesgood.views.JustifiedTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="Berikut ini merupakan definisi pembangunan ekonomi daerah, yaitu sebagai berikut: "
+            android:text="Judul Buku : EKONOMI PEMBANGUNAN EDISI 5"
             android:textColor="@color/white"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/num1"
-            android:textAllCaps="false"
-            android:text="Definisi pembangunan ekonomi daerah" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="16dp"
-            android:background="@color/background" />
-
-
-        <LinearLayout
+        <com.codesgood.views.JustifiedTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/bg_rounded"
-            android:orientation="vertical">
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:textColor="@color/white"
-                android:text="Setiap upaya pembangunan ekonomi daerah mempunyai tujuan utama untuk meningkatkan jumlah dan jenis peluang kerja untuk masyarakat daerah. Dalam upaya untuk mencapai tujuan tersebut, pemerintah daerah dan masyarakatnya harus secara Bersama-sama mengambil inisiatif pembangunan daerah." />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Oleh karena itu pemerintah daerah (beserta partisipasi masyarakatnya dan dengan menggunakan setiap sumberdaya yang ada) harus mampu menaksir potensi setiap sumberdaya yang diperlukan untuk merancang dan membangun perekonomian daerah."
-                android:textColor="@color/white"
-                android:textSize="16sp" />
-
-
-        </LinearLayout>
+            android:layout_marginTop="5dp"
+            android:text="Nama Penulis : Lincolin Arsyad"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

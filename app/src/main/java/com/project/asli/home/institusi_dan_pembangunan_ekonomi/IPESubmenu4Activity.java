@@ -44,7 +44,7 @@ public class IPESubmenu4Activity extends AppCompatActivity {
             public void onClick(View view) {
                 showPopup("Tiga peran institusi dalam mendukung bekerjanya mekanisme pasar", "1. sebuah institusi dinilai mampu mengalirkan informasi mengenai kondisi pasar, produk, dan pemain yang ada didalamnya (information roles).\n\n" +
                         "2. sebuah institusi dinilai mampu mendefinisikan dan mendorong penegakan atas hak kepemilikan dan kontrak (enforcement roles).\n\n" +
-                        "3. sebuah institusi dinilai mampu menciptakan atau bahkan mereduksi kompetisi didalam pasar (competition roles) berdasarkan tiga peran tersebut, setiap struktur institusi diharapkan mampu mempengaruhi distribusi atas aset-aset, pendapatan-pendapatan, dan biaya-biaya antarpelaku didalam sistem pasar tersebut.\n");
+                        "3. sebuah institusi dinilai mampu menciptakan atau bahkan mereduksi kompetisi didalam pasar (competition roles) berdasarkan tiga peran tersebut, setiap struktur institusi diharapkan mampu mempengaruhi distribusi atas aset-aset, pendapatan-pendapatan, dan biaya-biaya antar pelaku didalam sistem pasar tersebut.\n");
             }
         });
 

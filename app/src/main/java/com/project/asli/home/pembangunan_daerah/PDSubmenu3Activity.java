@@ -37,7 +37,7 @@ public class PDSubmenu3Activity extends AppCompatActivity {
         binding.num1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Teori Ekonomi Neo-Klasik", "Teori ini memberikan dua konsep pokok dalam pembangunan ekonomi daerah yaitu keseimbangan equilibrium dan mobilitas faktor produksi artinya sistem perekonomian ini akan mencapai titik keseimbangan alamiah jika modal bisa mengalir tanpa pembatasan Oleh karena itu model akan mengalir dari daerah yang berupa Tinggi menuju daerah yang berupa rendah.\n");
+                showPopup("Teori Ekonomi Neo-Klasik", "Teori ini memberikan dua konsep pokok dalam pembangunan ekonomi daerah yaitu keseimbangan equilibrium dan mobilitas faktor produksi artinya sistem perekonomian ini akan mencapai titik keseimbangan alamiah jika modal bisa mengalir tanpa pembatasan Oleh karena itu model akan mengalir dari daerah yang berupah tinggi menuju daerah yang berupah rendah.\n");
             }
         });
 

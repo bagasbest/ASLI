@@ -111,7 +111,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Sedangkan pembangunan ekonomi adalah kenaikan out put yang disebabkan oleh inovasi yang dilakukan oleh para wiraswasta. Inovasi ini berarti perabaikan “teknologi” dalam arti luar, miasalnya penemuan produk baru, pembukaan pasar baru dsb. Inovasi tersebut menyangkut perbaikan kuantitatif dari system ekonomi itu sendiri yang bersumber dari kreatifitas para wiraswastanya."
+                    android:text="Sedangkan pembangunan ekonomi adalah kenaikan out put yang disebabkan oleh inovasi yang dilakukan oleh para wiraswasta. Inovasi ini berarti perbaikan “teknologi” dalam arti luar, miasalnya penemuan produk baru, pembukaan pasar baru dsb. Inovasi tersebut menyangkut perbaikan kuantitatif dari sistem ekonomi itu sendiri yang bersumber dari kreatifitas para wiraswastanya."
                     android:textColor="@color/white"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -251,7 +251,8 @@
             <ImageView
                 android:id="@+id/img3"
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="30dp"
                 android:contentDescription="@string/image"/>

@@ -27,7 +27,7 @@ public class Submenu6Activity extends AppCompatActivity {
                 .into(binding.bg);
 
         Glide.with(this)
-                .load(R.drawable.img3)
+                .load(R.drawable.new6)
                 .into(binding.img3);
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
@@ -54,16 +54,16 @@ public class Submenu6Activity extends AppCompatActivity {
                         "2. Di perkenalkannya cara berproduksi baru\n" +
                         "3. Pembukaan daerah-daerah pasar baru\n" +
                         "4. Penemuan sumber-sumber bahan mentah baru\n" +
-                        "5. Perubahan organisasi industry sehingga efisiensi industry\n");
+                        "5. Perubahan organisasi industri sehingga efisiensi industri\n");
             }
         });
 
         binding.num3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Runtuhnya Kapitalisme\n\n", "1. Sistem kapitalis merupakan system yang paling cocok bagi timbulnya inovasi, pembangunan ekonomi dan pertumbuhan ekonomi. Dengam demikian menurut Schumpeter bagi Negara-negara sedang berkembang yang berusaha mengejar kemajuan ekonomi (pertumbuhan out put) maka system kapitalisasi tersebut sangat sesuai untuk diterapkan.\n\n" +
+                showPopup("Runtuhnya Kapitalisme\n\n", "1. Sistem kapitalis merupakan sistem yang paling cocok bagi timbulnya inovasi, pembangunan ekonomi dan pertumbuhan ekonomi. Dengan demikian menurut Schumpeter bagi Negara-negara sedang berkembang yang berusaha mengejar kemajuan ekonomi (pertumbuhan out put) maka sistem kapitalisasi tersebut sangat sesuai untuk diterapkan.\n\n" +
                         "2. Schumpeter berpendapat bahwa dalam jangka panjang sistem kapitalis akan meningkatkan pendapatan perkapita masyarakat sekaligus distribusi pendapatannya merata. Distibusi pendapatan yang semakin merata ini disebabkan oleh adanya inovasi-inovasi yang akan mengarah kepada barang-barang yang di konsumsi oleh orang banyak sehingga barang-barang menjadi melimpah.\n\n" +
-                        "3. Menurut Schumpeter bahwa dalam jangka panjang system kapitalis akan “runtuh” karena adanya transformasi gradual di dalam system tersebut menuju kearah system yang lebih sosialistis. Ciri dari system kapitalis itu sendiri akan berubah justru karena kesuksesannya dalam mencapai kemajuan ekonomi dan kemakmuran. Dengan semakin makmurnya masyarakat maka akan terjadi proses perubahan kelembagaan dan perubahan pandangan masyarakat yang semakin jauh dari system kapitalis asli.\n");
+                        "3. Menurut Schumpeter bahwa dalam jangka panjang sistem kapitalis akan “runtuh” karena adanya transformasi gradual di dalam sistem tersebut menuju kearah sistem yang lebih sosialistis. Ciri dari sistem kapitalis itu sendiri akan berubah justru karena kesuksesannya dalam mencapai kemajuan ekonomi dan kemakmuran. Dengan semakin makmurnya masyarakat maka akan terjadi proses perubahan kelembagaan dan perubahan pandangan masyarakat yang semakin jauh dari sistem kapitalis asli.\n");
             }
         });
 

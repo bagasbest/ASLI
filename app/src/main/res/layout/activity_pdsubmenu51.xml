@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
                     android:textColor="@color/white"
-                    android:text="Analisis shift share dapat disajikan sebagai berikut:  \n\nPerubahan employment pada industry daerah = pertumbuhan ekonomi + pergeseran proporsi + pergeseran difesensial." />
+                    android:text="Analisis shift share dapat disajikan sebagai berikut:  \n\nPerubahan employment pada industri daerah = pertumbuhan ekonomi + pergeseran proporsi + pergeseran difesensial." />
 
 
                 <com.codesgood.views.JustifiedTextView

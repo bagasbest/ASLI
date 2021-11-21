@@ -219,7 +219,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Masalah perkreditan di daerah perdesaan melibatkan dua kelompok kepentingan, yaitu para petani (atau masyarakat perdesaan) di satu pihka sebagai debitu (peminjam atau penerima kredit)dan lembaga-lembaga perkreditan sebagai kreditunya. Kedua, kelompok ini tentu saja berbeda dalam kepentingan dan tujuannya terhadap perkreditan, sehingga dapat menimbulkan perbedaan pandangan. Perbedaan pandangan ini tejadi antara lembaga perkreditan pemerintah dan masyarakat petani di daerah pedesaan."
+                        android:text="Masalah perkreditan di daerah perdesaan melibatkan dua kelompok kepentingan, yaitu para petani (atau masyarakat perdesaan) di satu pihak sebagai debitur (peminjam atau penerima kredit)dan lembaga-lembaga perkreditan sebagai kreditunya. Kedua, kelompok ini tentu saja berbeda dalam kepentingan dan tujuannya terhadap perkreditan, sehingga dapat menimbulkan perbedaan pandangan. Perbedaan pandangan ini tejadi antara lembaga perkreditan pemerintah dan masyarakat petani di daerah pedesaan."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -248,7 +248,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Oleh karena itu, pemerintah berusaha memperbaiki dan memperluas jangkauan pelayanan perkreditan agar dapat mencapai lapisan masyarakt perdesaan yang lebih rendah. Kemudian berbagai bentuk perkreditan mulai dikembangkan, seperti kredit canda kulak (KCK), KIK, KMKP, dan lain sebagainya."
+                        android:text="Oleh karena itu, pemerintah berusaha memperbaiki dan memperluas jangkauan pelayanan perkreditan agar dapat mencapai lapisan masyarakat perdesaan yang lebih rendah. Kemudian berbagai bentuk perkreditan mulai dikembangkan, seperti kredit canda kulak (KCK), KIK, KMKP, dan lain sebagainya."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 

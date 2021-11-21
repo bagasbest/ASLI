@@ -102,7 +102,7 @@
                 android:layout_marginTop="16sp"
                 android:padding="10dp"
                 android:background="@drawable/bg_rounded"
-                android:text="Pasar dengan struktur sederhana biasanya hanya terdiri dari sedikit pemain didalamnya, serta intensitas interaksi dan nilai transaksinya pun masih sangat terbatas. Dengan kondisi pasar yang tidak begitu kompleks tingkat pengawasan dan pengendalian atas mekanisme yang ada didalamnya pun tidak terlalu rumit."
+                android:text="Pasar dengan struktur sederhana biasanya hanya terdiri dari sedikit pemain didalamnya, serta intensitas interaksi dan nilai transaksi, pun masih sangat terbatas. Dengan kondisi pasar yang tidak begitu kompleks tingkat pengawasan dan pengendalian atas mekanisme yang ada didalamnya pun tidak terlalu rumit."
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -113,7 +113,7 @@
                 android:layout_marginTop="16sp"
                 android:padding="10dp"
                 android:background="@drawable/bg_rounded"
-                android:text="Pasar yang memiliki struktur yang kompleks dimana jumlah pemain, intensitas transaksi, dan ilai transaksinya pun secara nominal tidak sedikit. Dalam kondisi seperti ini dibutuhkan sebuah kontrol dan regulasi yang mampu mengatur dan memposisikan agar pasar tersebut tetap dalam kondisi keseimbangan (equilibrium)."
+                android:text="Pasar yang memiliki struktur yang kompleks dimana jumlah pemain, intensitas transaksi, dan nilai transaksinya pun secara nominal tidak sedikit. Dalam kondisi seperti ini dibutuhkan sebuah kontrol dan regulasi yang mampu mengatur dan memposisikan agar pasar tersebut tetap dalam kondisi keseimbangan (equilibrium)."
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -588,7 +588,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sebagian institusi bertindak sebagai motivator bagi kompetisi dan sebagian lagi bertindak represor bagi kompetisi, seua tergantung pada pola kebijakan dan regulasi yang dianut pemerintah dalam menyikapi pergerakan pasar."
+                    android:text="Sebagian institusi bertindak sebagai motivator bagi kompetisi dan sebagian lagi bertindak represor bagi kompetisi, semua tergantung pada pola kebijakan dan regulasi yang dianut pemerintah dalam menyikapi pergerakan pasar."
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="16sp" />

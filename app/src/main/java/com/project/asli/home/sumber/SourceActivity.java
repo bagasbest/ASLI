@@ -1,4 +1,4 @@
-package com.project.asli.home.teori_pertumbuhan_dan_perkembangan_ekonomi;
+package com.project.asli.home.sumber;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,28 +7,23 @@ import android.view.View;
 
 import com.bumptech.glide.Glide;
 import com.project.asli.R;
-import com.project.asli.databinding.ActivitySubmenu3Binding;
+import com.project.asli.databinding.ActivitySourceBinding;
 
-public class Submenu3Activity extends AppCompatActivity {
+public class SourceActivity extends AppCompatActivity {
 
-    public static final String EXTRA_ROLE = "";
-    private ActivitySubmenu3Binding binding;
+
+    private ActivitySourceBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivitySubmenu3Binding.inflate(getLayoutInflater());
+        binding = ActivitySourceBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         Glide.with(this)
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
-
-
-        Glide.with(this)
-                .load(R.drawable.new1)
-                .into(binding.img1);
-
 
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -51,7 +51,7 @@ public class Submenu7Activity extends AppCompatActivity {
         binding.num3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Ketergantungan teknologis-industrial.","Ini adalah bentuk ketergantungan baru. Kegiatan ekonomi di negara pinggiran tidak lagi berupa ekspor bahan mentah untuk keperluan industri di negara pusat. Perusahaanperusahaan multinasional dari negara pusat mulai menanam modalnya dalam kegiatan industri yang produknya ditujukan ke pasar dalam negeri dari negara-negara pinggiran.");
+                showPopup("Ketergantungan teknologis-industrial.","Ini adalah bentuk ketergantungan baru. Kegiatan ekonomi di negara pinggiran tidak lagi berupa ekspor bahan mentah untuk keperluan industri di negara pusat. Perusahaan-perusahaan multinasional dari negara pusat mulai menanam modalnya dalam kegiatan industri yang produknya ditujukan ke pasar dalam negeri dari negara-negara pinggiran.");
             }
         });
     }

@@ -204,7 +204,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="para proponen OIE ini bersikap anti neoklasi. OIE mengkritik keras teori neoklasik karena (1) neoklasik menagabaikan institusi dan oleh karena itu mengabaikan relevansi dan arti penting dari kendala-kendala nonanggaran (nonbudgetary constraints), (2) penekanan yang berlebihan kepada rasionalitas pengambilan keputusan (rational maximizing self-seeking behavior of individuals), (3) konsentrasi yang berlebihan terhadap keseimbangan (equilibrium) serta bersifat statis, dan (4) penolakan neoklasik terhadap prefernsi yang dapat berubah atau perilaku adalah pengulangan atau kebiasaan."
+                        android:text="para proponen OIE ini bersikap anti Neoklasik. OIE mengkritik keras teori neoklasik karena (1) Neoklasik menagabaikan institusi dan oleh karena itu mengabaikan relevansi dan arti penting dari kendala-kendala nonanggaran (nonbudgetary constraints), (2) penekanan yang berlebihan kepada rasionalitas pengambilan keputusan (rational maximizing self-seeking behavior of individuals), (3) konsentrasi yang berlebihan terhadap keseimbangan (equilibrium) serta bersifat statis, dan (4) penolakan neoklasik terhadap prefernsi yang dapat berubah atau perilaku adalah pengulangan atau kebiasaan."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -232,7 +232,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="OIE beranggapan bahwa ilmu ekonomi itu terlalu sempit sehingga perlu memasukkan ide-ide dari ilmu filsaar dan ilmu-ilmu sosial lainnya, fenomena ekonomi jangan dianalisis secara ekslusif atau terpisah (partial) tetapi sebagai sebuah proses, ilmu ekonomi harus lebih evolutionary (Langlois, 1986)"
+                        android:text="OIE beranggapan bahwa ilmu ekonomi itu terlalu sempit sehingga perlu memasukkan ide-ide dari ilmu Filsafat dan ilmu-ilmu sosial lainnya, fenomena ekonomi jangan dianalisis secara ekslusif atau terpisah (partial) tetapi sebagai sebuah proses, ilmu ekonomi harus lebih evolutionary (Langlois, 1986)"
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -305,7 +305,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="NIE mencoba untuk menawarkan ilmu ekonomi lengkap dengan teori dan institusinya (Nabli and Mugent, 1989). North secara tegas mengatakan bahwa “ NIE bulilds on, modifies and estends neo-classical theroy to permit it to come to grip and deal with an entire range of issuws herefore beyond its ken” (Harris et al., 1995)."
+                        android:text="NIE mencoba untuk menawarkan ilmu ekonomi lengkap dengan teori dan institusinya (Nabli and Mugent, 1989). North secara tegas mengatakan bahwa “ NIE bulilds on, modifies and estends Neo-classical Theory to permit it to come to grip and deal with an entire range of issuws herefore beyond its ken” (Harris et al., 1995)."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
