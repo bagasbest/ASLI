@@ -24,6 +24,7 @@
       android:layout_height="250dp"
       app:riv_border_color="@color/white"
       app:riv_border_width="3dp"
+      app:riv_corner_radius="999dp"
       android:contentDescription="@string/image"
       app:layout_constraintBottom_toTopOf="@+id/textView22"
       app:layout_constraintEnd_toEndOf="parent"
