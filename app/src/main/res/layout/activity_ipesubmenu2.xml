@@ -388,7 +388,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="NIE merupakan seperangkat teori yang dibangun diatas landasan ekonomi neoklasik, tetapi NIE mampu menjawab bahkan mengungkapkan permasalahan yand selama ini tidak mampu dijawab oleh ekonomi neoklasik. Salah satu permasalahan tersebut adalah eksistensi sebuah perusahaan sebagai sebuah organisasi administratif dan keuangan."
+                        android:text="NIE merupakan seperangkat teori yang dibangun diatas landasan ekonomi neoklasik, tetapi NIE mampu menjawab bahkan mengungkapkan permasalahan yang selama ini tidak mampu dijawab oleh ekonomi neoklasik. Salah satu permasalahan tersebut adalah eksistensi sebuah perusahaan sebagai sebuah organisasi administratif dan keuangan."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 

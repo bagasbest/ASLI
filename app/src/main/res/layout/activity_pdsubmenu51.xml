@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_rounded"
                 android:padding="10dp"
-                android:text="Analisis shift share pada dasarnya analisis shift share menggambarkan kinerja dan produktivitas sektor-sektor dalam perekonomian suatu wilayah dengan membandingkannya dengan kinerja sektor-sektor wilayah yang lebih besar (provinsi-nasional) analisis ini membandingkan laju pertumbuhan sektor-sektor ekonomi regional (kota-Kabupaten) dengan laju pertumbuhan perekonomian yang lebih tinggi tingkatannya atau provinsi dengan menggunakan analisis shift share dapat diketahui perubahan struktur ekonomi selama periode pengamatan tertentu. Data yang digunakan adalah PDRB sektoral."
+                android:text="Analisis shift share pada dasarnya analisis shift share menggambarkan kinerja dan produktivitas sektor-sektor dalam perekonomian suatu wilayah dengan membandingkannya dengan kinerja sektor-sektor wilayah yang lebih besar (provinsi-nasional) analisis ini membandingkan laju pertumbuhan sektor-sektor ekonomi regional (Kota-Kabupaten) dengan laju pertumbuhan perekonomian yang lebih tinggi tingkatannya atau provinsi dengan menggunakan analisis shift share dapat diketahui perubahan struktur ekonomi selama periode pengamatan tertentu. Data yang digunakan adalah PDRB sektoral."
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 
@@ -114,7 +114,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="1. pertumbuhan ekonomi daerah diukur dengan cara menganalisis perubahan kesempatan kerja agregat secara sektoral dibandingkan dengan perubahan pada sektor yang sama di perekonomian yang dijadikan acuan."
+                    android:text="1. Pertumbuhan ekonomi daerah diukur dengan cara menganalisis perubahan kesempatan kerja agregat secara sektoral dibandingkan dengan perubahan pada sektor yang sama di perekonomian yang dijadikan acuan."
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
@@ -132,7 +132,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
-                    android:text="3. Pergeseran diferensial ( diferensiasi shift ) membantu kita dalam menentukan Seberapa jauh daya saing industri daerah lokal dengan perekonomian yang dijadikan acuan."
+                    android:text="3. Pergeseran diferensial (diferensiasi shift) membantu kita dalam menentukan Seberapa jauh daya saing industri daerah lokal dengan perekonomian yang dijadikan acuan."
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 

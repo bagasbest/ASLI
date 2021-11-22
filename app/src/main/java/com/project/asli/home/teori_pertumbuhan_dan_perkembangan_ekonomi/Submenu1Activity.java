@@ -26,11 +26,6 @@ public class Submenu1Activity extends AppCompatActivity {
                 .load(R.drawable.bg_darken)
                 .into(binding.bg);
 
-//        if(getIntent().getStringExtra(EXTRA_ROLE).equals("admin")) {
-//            binding.edit.setVisibility(View.VISIBLE);
-//        }
-
-
         binding.backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,7 +36,7 @@ public class Submenu1Activity extends AppCompatActivity {
         binding.master1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Friedrich Lish", "Pemikiran List tertuang secara rinci di dalam bukunya yang berjudul The National System Of Political Economy, International Trade, Trade Policy And German Customs Union pada tahun 1856\n\nMenurut List, sistem liberalism yang laissez-faire tidak dapat menjamin alokasi sumberdaya secara optimal. Perkembangan ekonomi menurut list tergantung pada peran pemerintah, dunia bisnis, dan lignkunga kebudayaannya. Menurut list perkembangan ekonomi hanya akan terjadi jika dalam masyarakat ada kebebasan baik berpolitik maupun berkehidupan sosial sehari-hari. List menegaskan negara harus melindungi kepentingan golongan lemah dalam masyarakat.");
+                showPopup("Friedrich Lish", "Pemikiran List tertuang secara rinci di dalam bukunya yang berjudul The National System Of Political Economy, International Trade, Trade Policy And German Customs Union pada tahun 1856\n\nMenurut List, sistem liberalism yang laissez-faire tidak dapat menjamin alokasi sumber daya secara optimal. Perkembangan ekonomi menurut list tergantung pada peran pemerintah, dunia bisnis, dan lingkungan kebudayaannya. Menurut list perkembangan ekonomi hanya akan terjadi jika dalam masyarakat ada kebebasan baik berpolitik maupun berkehidupan sosial sehari-hari. List menegaskan negara harus melindungi kepentingan golongan lemah dalam masyarakat.");
             }
         });
 

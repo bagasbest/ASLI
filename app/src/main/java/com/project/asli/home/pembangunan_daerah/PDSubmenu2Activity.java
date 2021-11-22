@@ -36,7 +36,7 @@ public class PDSubmenu2Activity extends AppCompatActivity {
         binding.num1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Pembangunan ekonomi daerah", "Pembangunan ekonomi daerah adalah suatu proses yaitu suatu proses yang mencangkup pembentukan institusi-institusi baru, pembangunan industri-industri alternatif. Perbaikan kapasitas tenaga kerja yang ada untuk menghasilkan pruduk dan jasa yang lebih baik, identifikasi pasar-pasar baru, alih ilmu pengetahuan dan perkembangan perusahaan-perusahaan baru. \n");
+                showPopup("Pembangunan ekonomi daerah", "Pembangunan ekonomi daerah adalah suatu proses yaitu suatu proses yang mencangkup pembentukan institusi-institusi baru, pembangunan industri-industri alternatif. Perbaikan kapasitas tenaga kerja yang ada untuk menghasilkan produk dan jasa yang lebih baik, identifikasi pasar-pasar baru, alih ilmu pengetahuan dan perkembangan perusahaan-perusahaan baru. \n");
             }
         });
 

@@ -318,7 +318,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Keberhasilan atau kegagalan dari setiap upaya mentransformasikan pertanian tradisional tidak hanya tergantung pada ketrampilan dan kemampuan para petani dalam meningkatkan produktivitasnya, tetapi juga tergantung pada kondisi-kondisi sosial, komersial dan kelembagaan setempat."
+                    android:text="Keberhasilan atau kegagalan dari setiap upaya mentransformasikan pertanian tradisional tidak hanya tergantung pada keterampilan dan kemampuan para petani dalam meningkatkan produktivitasnya, tetapi juga tergantung pada kondisi-kondisi sosial, komersial dan kelembagaan setempat."
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>

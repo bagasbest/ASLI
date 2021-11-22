@@ -1013,7 +1013,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="lihat bagan berikut:"
+                android:text="lihat skema berikut:"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -1099,7 +1099,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lingkungan regulasi sebagai sumber daya perencanaan tentunya kita semua pahami bahwa insentif dan kebijakan kebijakan keuangan merupakan input penting bagi proses pembangunan ekonomi, dewasa ini banyak Pemerintah Daerah yang dengan sungguh-sungguh berupaya untuk mengkaji ulang sistem regulasinya demi untuk menunjukkan bahwa biaya untuk melakukan kegiatan usaha di daerah mereka cukup relevan dan representatif upaya yang gigih tersebut mencerminkan kenginan mereka untuk mencapai tingkat kebutuhan ekonomi yang tinggi atau dengan kata lain untuk menarik dan mengembangkan dunia usaha di daerahnya perlu adanya penyederhanaan sistem regulasi misalnya dewasa ini beberapa kota di berbagai negara baik negara maju maupun negara sedang berkembang telah menciptakan semacam pusat pelayanan bisnis terpadu"
+                    android:text="Lingkungan regulasi sebagai sumber daya perencanaan tentunya kita semua pahami bahwa insentif dan kebijakan kebijakan keuangan merupakan input penting bagi proses pembangunan ekonomi, dewasa ini banyak Pemerintah Daerah yang dengan sungguh-sungguh berupaya untuk mengkaji ulang sistem regulasinya demi untuk menunjukkan bahwa biaya untuk melakukan kegiatan usaha di daerah mereka cukup relevan dan representatif. Upaya yang gigih tersebut mencerminkan kenginan mereka untuk mencapai tingkat kebutuhan ekonomi yang tinggi atau dengan kata lain untuk menarik dan mengembangkan dunia usaha di daerahnya perlu adanya penyederhanaan sistem regulasi misalnya dewasa ini beberapa kota di berbagai negara baik negara maju maupun negara sedang berkembang telah menciptakan semacam pusat pelayanan bisnis terpadu"
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -1317,7 +1317,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kondisi pasar tenaga kerja, ada beberapa jenis data yang berkenaan dengan kondisi pasar tenaga kerja antara lain interaksi tentang distribusi kesempatan kerja menurut jenis kelamin pada setiap industri informasi tentang pengangguran dan setengah pengangguran setiap sektor industri paling sedikit selama 5 tahun terakhir pola kesempatan kerja dalam suatu masyarakat menunjukkan beberapa jumlah sumber daya manusia yang tersedia atau dibutuhkan untuk pembangunan ekonomi dan beberapa jumlah angkatan kerja yang membutuhkan bantuan."
+                    android:text="Kondisi pasar tenaga kerja, ada beberapa jenis data yang berkenaan dengan kondisi pasar tenaga kerja antara lain interaksi tentang distribusi kesempatan kerja menurut jenis kelamin pada setiap industri informasi tentang pengangguran dan setengah pengangguran setiap sektor industri paling sedikit selama 5 tahun terakhir, pola kesempatan kerja dalam suatu masyarakat menunjukkan beberapa jumlah sumber daya manusia yang tersedia atau dibutuhkan untuk pembangunan ekonomi dan beberapa jumlah angkatan kerja yang membutuhkan bantuan."
                     android:textColor="@android:color/white"
                     android:textSize="16dp" />
             </LinearLayout>

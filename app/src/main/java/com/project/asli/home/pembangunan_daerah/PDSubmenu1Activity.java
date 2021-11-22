@@ -36,7 +36,7 @@ public class PDSubmenu1Activity extends AppCompatActivity {
         binding.num1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Daerah Homogen", "Daerah dianggap ruang dimana kegiatan ekonomi terjadi dan di dalam berbagai pelosok ruang tersebut terdapat sifat-sifat yang sama. Kesamaan sifat-sifat tersebut, antara lain tercermin dari segi pendapatan perkapitanya, social budayanya, geografisnya, dan lain sebagainya. Daerah dalam definisi inidisebut dengan daerah homogen.\n");
+                showPopup("Daerah Homogen", "Daerah dianggap ruang dimana kegiatan ekonomi terjadi dan di dalam berbagai pelosok ruang tersebut terdapat sifat-sifat yang sama. Kesamaan sifat-sifat tersebut, antara lain tercermin dari segi pendapatan perkapitanya, social budayanya, geografisnya, dan lain sebagainya. Daerah dalam definisi ini disebut dengan daerah homogen.\n");
             }
         });
 

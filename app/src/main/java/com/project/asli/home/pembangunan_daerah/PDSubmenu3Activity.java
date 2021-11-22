@@ -37,7 +37,7 @@ public class PDSubmenu3Activity extends AppCompatActivity {
         binding.num1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Teori Ekonomi Neo-Klasik", "Teori ini memberikan dua konsep pokok dalam pembangunan ekonomi daerah yaitu keseimbangan equilibrium dan mobilitas faktor produksi artinya sistem perekonomian ini akan mencapai titik keseimbangan alamiah jika modal bisa mengalir tanpa pembatasan Oleh karena itu model akan mengalir dari daerah yang berupah tinggi menuju daerah yang berupah rendah.\n");
+                showPopup("Teori Ekonomi Neo-Klasik", "Teori ini memberikan dua konsep pokok dalam pembangunan ekonomi daerah yaitu keseimbangan equilibrium dan mobilitas faktor produksi artinya sistem perekonomian ini akan mencapai titik keseimbangan alamiah jika modal bisa mengalir tanpa pembatasan, oleh karena itu model akan mengalir dari daerah yang berupah tinggi menuju daerah yang berupah rendah.\n");
             }
         });
 
@@ -67,7 +67,7 @@ public class PDSubmenu3Activity extends AppCompatActivity {
         binding.num5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showPopup("Teori kausasi kumulatif", "Pembangunan di daerah-daerah yang lebih maju akan menyebabkan suatu keadaan yang akan menimbulkan hambatan yang lebih besar pada daerah yang terbelakang untuk dapat maju dan berkembang. Suatu keadaan yang dapat menghambat perkembangan ini digolongkannya sebagai backwass effects. Disisi lain perkembangan di daerah yang lebih maju juga dapat menimbulkan suatu keadaan yang akan mendorong perkembangan bagi daerah yang lebih msikin dan dinamakan spread effects.\n");
+                showPopup("Teori kausasi kumulatif", "Pembangunan di daerah-daerah yang lebih maju akan menyebabkan suatu keadaan yang akan menimbulkan hambatan yang lebih besar pada daerah yang terbelakang untuk dapat maju dan berkembang. Suatu keadaan yang dapat menghambat perkembangan ini digolongkannya sebagai backwass effects. Disisi lain perkembangan di daerah yang lebih maju juga dapat menimbulkan suatu keadaan yang akan mendorong perkembangan bagi daerah yang lebih miskin dan dinamakan spread effects.\n");
             }
         });
 

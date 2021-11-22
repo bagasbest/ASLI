@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Syarat-sayart pembangunan pertanian"
+        android:text="Syarat-syarat pembangunan pertanian"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"

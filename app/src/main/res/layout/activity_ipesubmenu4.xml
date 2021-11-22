@@ -501,7 +501,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Era globalisasi menuntut adanya perubahan yang progresif pada arus informasi dan perdagangan bebas. Oleh karena itu, kelancaran arus informasi guna menghubungkan para pelaku ekonomi dan pasar pun mutlak diperlukan. Jika arus informasi diantaran para pelaku ekonomi tidak setara atau asimetris maka sudah dapat dipastikan pasar akan terdistorsi. Akibatnya biaya transaksi pun semakin tinggi."
+                    android:text="Era globalisasi menuntut adanya perubahan yang progresif pada arus informasi dan perdagangan bebas. Oleh karena itu, kelancaran arus informasi guna menghubungkan para pelaku ekonomi dan pasar pun mutlak diperlukan. Jika arus informasi diantaranya para pelaku ekonomi tidak setara atau asimetris maka sudah dapat dipastikan pasar akan terdistorsi. Akibatnya biaya transaksi pun semakin tinggi."
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="16sp" />
@@ -509,7 +509,7 @@
                 <com.codesgood.views.JustifiedTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tuntutan terhadap paradigma good governance dalam seluruh kegiatan tidak dapat dielakan lagi. Salah satu cara mewujudkan good governance adalah dengan adanya transparansi dan keterbukaan atas informasi. Asian Development Bank (ADB) dalam sebuah publikasinya, Good Governance And Anticorruption: The Road Forward For Indonesia (1999) mendefinisikan good governance sebagai terlaksannya tata kelola ekonomi, politik dan sosial dengan baik. Salah satu indikator adanya transparansi dan keterbukaan adalah rendahnya tingkat penyimpangan (misalnya korupsi)dalam setiap aktivitas ekonomi. Semakin tinggi tingkat transparansi dan keterbukaan dari aktivitas ekonomi maka seharusnya semakin rendah pula kemungkinan korupsi yang terjadi."
+                    android:text="Tuntutan terhadap paradigma good governance dalam seluruh kegiatan tidak dapat dielakan lagi. Salah satu cara mewujudkan good governance adalah dengan adanya transparansi dan keterbukaan atas informasi. Asian Development Bank (ADB) dalam sebuah publikasinya, Good Governance And Anticorruption: The Road Forward For Indonesia (1999) mendefinisikan good governance sebagai terlaksannya tata kelola ekonomi, politik, dan sosial dengan baik. Salah satu indikator adanya transparansi dan keterbukaan adalah rendahnya tingkat penyimpangan (misalnya korupsi), dalam setiap aktivitas ekonomi. Semakin tinggi tingkat transparansi dan keterbukaan dari aktivitas ekonomi maka seharusnya semakin rendah pula kemungkinan korupsi yang terjadi."
                     android:textColor="@color/white"
                     android:textSize="16sp"
                     android:layout_marginTop="16sp" />

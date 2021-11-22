@@ -113,7 +113,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="hayami dan Ruttan (1983) mendefinisikan institusi sebagai aturan dari suatu atau organisasi yang memudahkan kooedinasi di antra orang-orang dalam masyarakat atau organisasi tersebut saling berinteraksi guna mencapai harapan masing-masing."
+                        android:text="Hayami dan Ruttan (1983) mendefinisikan institusi sebagai aturan dari suatu atau organisasi yang memudahkan kooedinasi di antra orang-orang dalam masyarakat atau organisasi tersebut saling berinteraksi guna mencapai harapan masing-masing."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -141,7 +141,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ostrom (1986) mengatakan bahwa institusi merupakan aturan dan rambu-rambu yang digunakan sebagai panduan bagi para anggota suaru kelompok masyarakat untuk mengatur hubungan yang saling mengikat atau saling ketergantungan diantara mereka."
+                        android:text="Ostrom (1986) mengatakan bahwa institusi merupakan aturan dan rambu-rambu yang digunakan sebagai panduan bagi para anggota suaru kelompok masyarakat untuk mengatur hubungan yang saling mengikat atau saling ketergantungan diantara mereka."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -169,7 +169,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="nabli dan nugent (1989) mendefinisikan institusi sebagai sekumpulan kendala yang mengatur hubungan perilaku keanggotaan atau antarkelompok."
+                        android:text="Nabli dan Nugent (1989) mendefinisikan institusi sebagai sekumpulan kendala yang mengatur hubungan perilaku keanggotaan atau antarkelompok."
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
@@ -456,7 +456,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Menurut rodrik (2003), ada empat fungsi institusi dalam kaitannya dengan mendukung kinerja perekonomian yaitu:"
+                android:text="Menurut Rodrik (2003), ada empat fungsi institusi dalam kaitannya dengan mendukung kinerja perekonomian yaitu:"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:layout_marginTop="16sp"
@@ -546,7 +546,7 @@
                     <com.codesgood.views.JustifiedTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="mejaga stabilitas (market stabilizing): institusi yang menjaga agar tingkat inflasi rendah, meminimumkan ketidakstabilan makroekonomi, dan mengendalikan krisis keuangan"
+                        android:text="mejaga stabilitas (market stabilizing): institusi yang menjaga agar tingkat inflasi rendah, meminimumkan ketidakstabilan makro ekonomi, dan mengendalikan krisis keuangan"
                         android:textColor="@android:color/white"
                         android:textSize="16dp" />
 
